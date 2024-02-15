@@ -1,0 +1,52 @@
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+% PARAMETERS EVOLUTIONARY ALGORITHM
+USPEX : calculationMethod (USPEX, VCNEB, META)
+301   : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1     : optType (1=enthalpy, 2=volume, 3=hardness, 4=struc_order,...)
+
+% atomType
+Si C
+% EndAtomType
+
+% numSpecies
+1 0
+0 1
+% EndNumSpecies
+
+10    : populationSize 
+10    : initialPopSize
+3     : numGenerations 
+3     : stopCrit
+
+5     : firstGeneMax
+1     : minAt
+3     : maxAt
+
+0.40  : fracGene 
+0.20  : fracRand 
+0.20  : fracAtomsMut 
+0.20  : fracTrans
+0.00  : fracLatMut
+2.0   : minVectorLength 
+
+% IonDistances
+1.0 0.9
+0.0 0.8
+% EndDistances
+
+abinitioCode 
+1 1 1
+ENDabinit
+
+% KresolStart
+0.15 0.14 0.12
+% Kresolend
+
+1     : numParallelCalcs 
+0     : whichCluster 
+
+% commandExecutable
+timeout 60 vasp > output
+% EndExecutable

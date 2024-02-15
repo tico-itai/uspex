@@ -1,0 +1,46 @@
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+USPEX  : calculationMethod (USPEX, VCNEB, META)
+201    : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1      : optType (1=enthalpy, 2=volume, 3=hardness, 4=struc_order)
+3.0    : thicknessS (thickness of surface region, 2 A by default )
+0.0    : thicknessB (thickness of buffer region in substrate, 3 A by default)
+1      : reconstruct (only used in surfaces)
+
+% numSpecies
+10
+% EndNumSpecies
+
+% atomType
+B
+% EndAtomType
+
+% symmetries
+2-17
+% endSymmetries
+******************************************
+*               POPULATION               *
+******************************************
+40    : populationSize 
+60    : initialPopSize 
+50    : numGenerations 
+20    : stopCrit 
+1     : reoptOld
+0.30  : fracGene 
+0.50  : fracRand 
+0.10  : fracAtomsMut 
+0.10  : fracTrans 
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   * 
+*****************************************
+CFN    : whichCluster 
+20     : numParallelCalcs 
+
+% abinitioCode
+1 1 1
+% ENDabinit
+
+% KresolStart
+0.16 0.12 0.09
+%  Kresolend

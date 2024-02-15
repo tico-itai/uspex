@@ -1,0 +1,23 @@
+###################
+#Pre-optimisation, constant-P
+###################
+%block ChemicalSpeciesLabel
+1    6 C
+%endblock ChemicalSpeciesLabel
+PAO.BasisSize   DZ
+MeshCutoff      50 Ry
+PAO.EnergyShift 0.02 Ry
+# DFT, Grid, SCF
+XC.functional           GGA
+XC.authors              PBE
+DM.Tolerance            2.d-2
+# Relaxation, smearing, etc.
+ElectronicTemperature   5 meV
+MD.TypeOfRun            cg     # Type of dynamics
+Optim.Broyden           .true.
+MD.VariableCell         .false.
+MD.ConstantVolume       .true.
+MD.MaxForceTol          2d-1 eV/Ang
+MD.MaxCGDispl           0.3 Bohr
+MD.NumCGsteps           10
+MD.TargetPressure       30.00000 GPa

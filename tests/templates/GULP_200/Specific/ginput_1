@@ -1,0 +1,6 @@
+species
+C  0.0
+library nodump edip_marks
+lennard epsilon
+C C 0.0150 1.45 0.0 8.0
+maxcyc 2000

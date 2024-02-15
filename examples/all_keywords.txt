@@ -1,0 +1,175 @@
+USPEX code:
+================================================================================
+*** Keywords: ***
+USPEX      : calculationMethod
+301        : calculationType
+enthalpy   : optType
+100        : ExternalPressure
+1          : checkMolecules
+1          : checkConnectivity
+20         : populationSize
+20         : initialPopSize
+50         : numGenerations
+20         : stopCrit
+0.7        : bestFrac
+3          : keepBestHM
+0.5        : fracGene
+0.20       : fracRand
+0.1        : fracPerm
+0.1        : fracAtomsMut
+0.1        : fracRotMut
+0.1        : fracLatMut
+5          : howManySwaps
+2.5        : mutationDegree
+0.5        : mutationRate
+1.0        : DisplaceInLatmutation
+1          : AutoFrac
+2.0        : minVectorLength
+1          : constraint_enhancement
+1          : whichCluster
+10         : numParallelCalcs
+Blind_test : remoteFolder
+1          : PhaseDiagram
+1          : antiSeedsActivation
+0.005      : antiSeedsMax
+0.005      : antiSeedsSigma
+1          : doSpaceGroup
+medium     : SymTolerance (high/medium/low (= 0.04/0.08/0.15))
+20         : repeatForStatistics
+90.912     : stopFitness
+1          : ordering_active
+1          : symmetrize
+0.5        : percSliceShift
+1          : dynamicalBestHM
+0.55       : maxDistHeredity
+3          : manyParents
+2          : numberparents
+3.5        : thicknessS
+3.0        : thicknessB
+1          : reconstruct
+10         : firstGeneMax
+10         : minAt
+20         : maxAt
+0.1        : fracTrans
+0.2        : howManyTrans
+
+
+*** Key blocks: ***
+% atomType
+Mg Si O
+% EndAtomType
+
+% numSpecies
+4 4 12
+% EndNumSpecies
+
+% valences
+2 4 2
+% endValences
+
+% goodBonds
+10.0 10.0  0.2
+ 0.0 10.0  0.5
+ 0.0  0.0 10.0
+% EndGoodBonds
+
+% symmetries
+195-198 200 215-230
+% endSymmetries
+
+% specificSwaps
+1 2
+% EndSpecific
+
+% IonDistances
+1.0 1.0 0.8
+0.0 1.0 0.8
+0.0 0.0 1.0
+% EndDistances
+
+% MolCenters
+5.5 7.7
+0.0 9.7
+% EndMol
+
+% Latticevalues
+125.00
+% Endvalues
+
+% splitInto
+1 2 4
+% EndSplitInto
+
+% abinitioCode
+3 2 2 1 1
+% ENDabinit
+
+% KresolStart
+0.2 0.16 0.12 0.08
+% Kresolend
+
+% vacuumSize
+10 10 15 20 20
+% endVacuumSize
+
+% commandExecutable
+gulp < input > output
+mpirun -np 8 vasp > out
+mpirun -np 8 vasp > out
+mpirun -np 8 vasp > out
+% EndExecutable
+
+% valenceElectr
+2 6
+% endValenceElectr
+
+% softMutOnly
+1-5
+% EndSoftOnly
+
+% specificTrans
+1 2
+% EndTransSpecific
+
+
+
+Evolutionary metadynamics code:
+================================================================================
+10         : ExternalPressure
+0.80       : GaussianWidth
+2000       : GaussianHeight
+2          : FullRelax
+12.0        : maxVectorLength
+
+
+Particle swarm optimization (PSO) code:
+================================================================================
+1          : PSO_softMut
+1          : PSO_BestStruc
+1          : PSO_BestEver
+
+
+
+Variable-Cell Nudged-Elastic-Band (VCNEB) code:
+================================================================================
+111        : vcnebType
+13         : numImages
+500        : numSteps
+1          : optReadImages
+1          : optimizerType
+3          : optRelaxType
+0.1        : dt
+0.005      : ConvThreshold
+0.3        : VarPathLength
+3          : K_min
+6          : K_max
+4          : Kconstant
+1          : optFreezing
+1          : optMethodCIDI
+200        : startCIDIStep
+1          : FormatType
+10         : PrintStep
+
+% pickupImages
+9 11 17
+% EndPickupImages

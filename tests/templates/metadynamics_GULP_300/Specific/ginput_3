@@ -1,0 +1,15 @@
+space
+1
+species
+Mg core 1.9104
+Si core 2.9043
+O  core -1.6049
+buck
+Mg core O core  1007.526  0.2866   0.0  0.0 9.0
+Si core O core  1108.983  0.2827   0.0  0.0 9.0
+O  core O core  2023.800  0.2674   13.83 0.0 9.0
+maxcyc
+1850
+rcspatial 9.0
+switch rfo gnorm 0.250
+

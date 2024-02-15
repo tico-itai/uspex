@@ -1,0 +1,3 @@
+Note that MOL_1 format is slightly different with other files.
+Here the DMACRYS code is used for structural relaxation, which requires
+some other information to define the molecule.

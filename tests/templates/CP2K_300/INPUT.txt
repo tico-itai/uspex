@@ -1,0 +1,53 @@
+PARAMETERS EVOLUTIONARY ALGORITHM
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+USPEX : calculationMethod (USPEX, VCNEB, META)
+300   : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1     : optType (1=enthalpy, 2=volume, 3=hardness, 4=struc_order,...)
+1     : AutoFrac
+
+% numSpecies
+4
+% EndNumSpecies
+
+% atomType
+C 
+% EndAtomType
+
+******************************************
+*               POPULATION               *
+******************************************
+5    : populationSize 
+5    : initialPopSize
+3    : numGenerations 
+3    : stopCrit
+
+******************************************
+*          VARIATION OPERATORS           *
+******************************************
+0.50  : fracGene 
+0.20  : fracRand 
+0.20  : fracAtomsMut 
+0.10  : fracLatMut 
+****************************************
+*             CONSTRAINTS              *
+****************************************
+% IonDistances
+0.90
+% EndDistances
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   *
+*****************************************
+abinitioCode 
+7 7 7 
+ENDabinit
+
+% commandExecutable
+timeout 60 cp2k -i cp2k.inp > log
+% EndExecutable
+%%%%%%%%%%%%%%%%%%
+
+1      : numParallelCalcs 
+0      : whichCluster 
+0.00   : ExternalPressure (GPa)

@@ -1,0 +1,63 @@
+******************************************
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+******************************************
+USPEX : calculationMethod (USPEX, VCNEB, META)
+000   : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1     : optType (optimise by: 1=enthalpy, 2=volume, 3=hardness, 4=struc_order, 5=aver_dist, 6=mag_moment)
+
+% atomType
+C
+% EndAtomType
+
+% numSpecies
+12
+% EndNumSpecies
+
+******************************************
+*               POPULATION               *
+******************************************
+5    : populationSize (how many individuals per generation)
+5    : initialPopSize
+3    : numGenerations (how many generations shall be calculated)
+3    : stopCrit 
+
+******************************************
+******************************************
+*          VARIATION OPERATORS           *
+******************************************
+******************************************
+0.6  : fracGene (fraction of generation produced by heredity)
+0.4  : fracAtomsMut (fraction of the generation produced by softmutation)
+0.0  : fracPerm
+0.0  : fracRand
+0.0  : fracLatMut
+****************************************
+*             CONSTRAINTS              *
+****************************************
+% IonDistances
+0.8
+% EndDistances
+
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   * 
+*****************************************
+abinitioCode
+13 13 13
+ENDabinit
+
+% commandExecutable
+MOPAC2012.exe input.mop
+% EndExecutable
+%%%%%%%%%%%%%%%%%%
+
+1       : numParallelCalcs (how many parallel calculations shall be performed)
+0       : whichCluster (0: no-job-script, 1: local submission, 2: remote submission)
+
+*****************************************
+*               RESTART                 *
+*****************************************
+0    : pickUpYN 
+0    : pickUpGen 
+0    : pickUpFolder 

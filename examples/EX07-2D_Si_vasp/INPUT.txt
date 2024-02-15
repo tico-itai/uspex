@@ -1,0 +1,51 @@
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+USPEX : calculationMethod (USPEX, VCNEB, META)
+-200  : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1     : optType (1=enthalpy, 2=volume, 3=hardness, 4=struc_order, 5=aver_dist)
+2.0   : thicknessS 
+1     : AutoFrac
+
+% vacuumSize 
+8 9 10 12
+% endVacuumSize 
+
+% numSpecies
+8
+% EndNumSpecies
+
+% atomType
+Si
+% EndAtomType
+******************************************
+*               POPULATION               *
+******************************************
+20    : populationSize 
+40    : numGenerations 
+10    : stopCrit 
+******************************************
+*          VARIATION OPERATORS           *
+******************************************
+0.50  : fracGene 
+0.30  : fracRand 
+0.00  : fracPerm 
+0.00  : fracLatMut
+0.20  : fracAtomsMut 
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   * 
+*****************************************
+% abinitioCode 
+1 1 1 1 1
+% ENDabinit
+
+% KresolStart
+0.12 0.10 0.08 0.06 0.05
+%  Kresolend
+
+% commandExecutable
+mpirun -np 4 vasp > log
+% EndExecutable
+
+10     : numParallelCalcs (how many parallel calculations shall be performed)
+QSH    : whichCluster (0: no-job-script, 1: local submission, 2: remote submission)

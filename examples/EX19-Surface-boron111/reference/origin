@@ -1,0 +1,363 @@
+------- generation1 -------
+     1  random
+     2  random
+     3  random
+     4  random
+     5  random
+     6  random
+     7  random
+     8  random
+     9  random
+    10  random
+    11  random
+    12  random
+    13  random
+    14  random
+    15  random
+    16  random
+    17  random
+    18  random
+    19  random
+    20  random
+    21  random
+    22  random
+    23  random
+    24  random
+    25  random
+    26  random
+    27  random
+    28  random
+    29  random
+    30  random
+    31  random
+    32  random
+    33  random
+    34  random
+    35  random
+    36  random
+    37  random
+    38  random
+    39  random
+    40  random
+    41  random
+    42  random
+    43  random
+    44  random
+    45  random
+    46  random
+    47  random
+    48  random
+    49  random
+    50  random
+    51  random
+    52  random
+    53  random
+    54  random
+    55  random
+    56  random
+    57  random
+    58  random
+    59  random
+    60  random
+------- generation2 -------
+    61 heredity,     parents numbers      44 9
+    62 heredity,     parents numbers     16 56
+    63 heredity,     parents numbers      14 6
+    64 heredity,     parents numbers     29 41
+    65 heredity,     parents numbers     20 38
+    66 heredity,     parents numbers      31 2
+    67 heredity,     parents numbers      9 33
+    68 heredity,     parents numbers      29 6
+    69 heredity,     parents numbers     29 15
+    70 heredity,     parents numbers     41 24
+    71 heredity,     parents numbers       5 2
+    72 heredity,     parents numbers       9 9
+    73 softmutation, parent number    20
+    74 softmutation, parent number     2
+    75 softmutation, parent number    28
+    76 softmutation, parent number    47
+    77  random
+    78  random
+    79  random
+    80  random
+    81  random
+    82  random
+    83  random
+    84  random
+    85  random
+    86  random
+    87  random
+    88  random
+    89  random
+    90  random
+    91  random
+    92  random
+    93  random
+    98  random
+    99  random
+   100 keptBest,     parent number     2
+   101 keptBest,     parent number    20
+   102  random
+   103 keptBest,     parent number    28
+   104 keptBest,     parent number     9
+   105 keptBest,     parent number    26
+   106 keptBest,     parent number     8
+------- generation3 -------
+   107 heredity,     parents numbers     88 77
+   108 heredity,     parents numbers    95 101
+   109 heredity,     parents numbers    73 103
+   110 heredity,     parents numbers    82 101
+   111 heredity,     parents numbers     95 71
+   112 heredity,     parents numbers     70 70
+   113 heredity,     parents numbers     64 76
+   114 heredity,     parents numbers     74 74
+   115 heredity,     parents numbers     71 90
+   116 heredity,     parents numbers     90 70
+   117 heredity,     parents numbers    74 103
+   118 softmutation, parent number    74
+   119 softmutation, parent number    97
+   120 softmutation, parent number    73
+   121 softmutation, parent number    88
+   122  random
+   123  random
+   124  random
+   125  random
+   126 heredity,     parents numbers     71 90
+   127  random
+   128  random
+   129  random
+   130  random
+   131  random
+   132  random
+   133  random
+   134  random
+   135  random
+   136  random
+   137  random
+   138  random
+   139  random
+   140  random
+   141  random
+   142  random
+   146 keptBest,     parent number    74
+   147 keptBest,     parent number    73
+   149 keptBest,     parent number   103
+   150 keptBest,     parent number    99
+   151 keptBest,     parent number   104
+   152 keptBest,     parent number    93
+------- generation4 -------
+   153 heredity,     parents numbers   117 149
+   154 heredity,     parents numbers   152 129
+   155 heredity,     parents numbers   129 151
+   156 heredity,     parents numbers   125 137
+   157 heredity,     parents numbers   115 152
+   158 heredity,     parents numbers   115 113
+   159 heredity,     parents numbers   113 150
+   160 heredity,     parents numbers   113 127
+   161 heredity,     parents numbers   127 127
+   162 heredity,     parents numbers   137 151
+   163 heredity,     parents numbers   112 117
+   164 mutation,     parent number   120
+   165 mutation,     parent number   143
+   166 mutation,     parent number   151
+   167 mutation,     parent number   151
+   168  random
+   169  random
+   170  random
+   171  random
+   172 heredity,     parents numbers   143 125
+   173  random
+   174  random
+   175  random
+   176  random
+   177  random
+   178  random
+   179  random
+   180  random
+   181  random
+   182  random
+   183  random
+   184  random
+   185  random
+   186  random
+   187  random
+   188  random
+   192 keptBest,     parent number   143
+   193 keptBest,     parent number   149
+   194 keptBest,     parent number   127
+   195 keptBest,     parent number   150
+   196 keptBest,     parent number   151
+   197 keptBest,     parent number   120
+------- generation5 -------
+   199 heredity,     parents numbers   164 160
+   200 heredity,     parents numbers   164 161
+   201 heredity,     parents numbers   158 156
+   202 heredity,     parents numbers   164 195
+   203 heredity,     parents numbers   194 187
+   204 heredity,     parents numbers   173 194
+   205 heredity,     parents numbers   164 163
+   206 heredity,     parents numbers   156 168
+   207 heredity,     parents numbers   156 158
+   208 heredity,     parents numbers   195 194
+   209 heredity,     parents numbers   194 194
+   210 heredity,     parents numbers   193 190
+   211 softmutation, parent number   190
+   212 mutation,     parent number   158
+   213 mutation,     parent number   176
+   214 softmutation, parent number   164
+   215  random
+   216  random
+   217  random
+   218  random
+   219  random
+   220  random
+   221  random
+   222  random
+   223  random
+   224  random
+   225  random
+   226  random
+   227  random
+   228  random
+   229  random
+   230  random
+   231  random
+   232  random
+   233  random
+   234  random
+   238 keptBest,     parent number   165
+   239 keptBest,     parent number   164
+   240 keptBest,     parent number   193
+   241 keptBest,     parent number   195
+   242 keptBest,     parent number   166
+   244 keptBest,     parent number   173
+------- generation6 -------
+   245 heredity,     parents numbers   228 239
+   246 heredity,     parents numbers   211 235
+   247 heredity,     parents numbers   227 212
+   248 heredity,     parents numbers   227 241
+   249 heredity,     parents numbers   212 238
+   250 heredity,     parents numbers   221 209
+   251 heredity,     parents numbers   214 235
+   252 heredity,     parents numbers   214 213
+   253 heredity,     parents numbers   240 202
+   254 heredity,     parents numbers   235 239
+   255 heredity,     parents numbers   212 237
+   256 heredity,     parents numbers   225 217
+   257 mutation,     parent number   212
+   258 mutation,     parent number   238
+   259 mutation,     parent number   238
+   260 softmutation, parent number   241
+   261  random
+   262  random
+   263  random
+   264  random
+   265  random
+   266  random
+   267  random
+   268  random
+   269  random
+   270  random
+   271  random
+   272  random
+   273  random
+   274  random
+   275  random
+   276  random
+   277  random
+   278  random
+   279  random
+   280  random
+   285 keptBest,     parent number   238
+   286 keptBest,     parent number   239
+   287 keptBest,     parent number   241
+   288 keptBest,     parent number   242
+   289 keptBest,     parent number   226
+   290 keptBest,     parent number   244
+------- generation7 -------
+   291 heredity,     parents numbers   284 270
+   292 heredity,     parents numbers   281 246
+   293 heredity,     parents numbers   280 257
+   294 heredity,     parents numbers   286 287
+   295 heredity,     parents numbers   290 260
+   296 heredity,     parents numbers   257 260
+   297 heredity,     parents numbers   261 281
+   298 heredity,     parents numbers   279 261
+   299 heredity,     parents numbers   276 286
+   300 heredity,     parents numbers   270 258
+   301 heredity,     parents numbers   257 266
+   302 heredity,     parents numbers   287 274
+   303 softmutation, parent number   289
+   304 mutation,     parent number   256
+   305 softmutation, parent number   284
+   306 mutation,     parent number   290
+   307  random
+   308  random
+   309  random
+   310  random
+   311  random
+   312  random
+   313  random
+   314  random
+   315  random
+   316  random
+   317  random
+   318  random
+   319  random
+   320  random
+   321  random
+   322  random
+   323  random
+   324  random
+   325  random
+   326  random
+   330 keptBest,     parent number   286
+   331 keptBest,     parent number   276
+   332 keptBest,     parent number   284
+   333 keptBest,     parent number   274
+   335 keptBest,     parent number   287
+   336 keptBest,     parent number   258
+------- generation8 -------
+   337 heredity,     parents numbers   320 297
+   338 heredity,     parents numbers   294 332
+   339 heredity,     parents numbers   299 330
+   340 heredity,     parents numbers   294 322
+   341 heredity,     parents numbers   305 323
+   342 heredity,     parents numbers   299 326
+   343 heredity,     parents numbers   314 299
+   344 heredity,     parents numbers   329 330
+   345 heredity,     parents numbers   335 297
+   346 heredity,     parents numbers   331 294
+   347 heredity,     parents numbers   329 335
+   348 heredity,     parents numbers   336 305
+   349 mutation,     parent number   335
+   350 softmutation, parent number   331
+   351 softmutation, parent number   331
+   352 softmutation, parent number   306
+   353  random
+   354  random
+   355  random
+   356  random
+   357  random
+   358  random
+   359  random
+   360  random
+   361  random
+   362  random
+   363  random
+   364  random
+   365  random
+   366  random
+   367  random
+   368  random
+   369  random
+   370  random
+   371  random
+   372  random
+   376 keptBest,     parent number   336
+   377 keptBest,     parent number   330
+   378 keptBest,     parent number   331
+   379 keptBest,     parent number   335
+   380 keptBest,     parent number   318
+   381 keptBest,     parent number   297
+------- generation9 -------

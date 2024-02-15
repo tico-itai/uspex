@@ -1,0 +1,63 @@
+******************************************
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+******************************************
+USPEX : calculationMethod (USPEX, VCNEB, META)
+000   : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1     : optType (optimise by: 1=enthalpy, 2=volume, 3=hardness,...)
+
+% symmetries
+E C2 D2 C4 C3 C6 T S2 Ch1 Cv2 S4 S6 Ch3 Th Ch2 Dh2 Ch4 D3 Ch6 O D4 Cv3 D6 Td Cv4 Dd3 Cv6 Oh Dd2 Dh3 Dh4 Dh6 Oh C5 S5 S10 Cv5 Ch5 D5 Dd5 Dh5 I Ih
+% endSymmetries
+
+% atomType
+Mo
+% EndAtomType
+
+% numSpecies
+13
+% EndNumSpecies
+
+******************************************
+*               POPULATION               *
+******************************************
+5     : populationSize 
+5     : initialPopSize 
+3     : numGenerations 
+3     : stopCrit 
+0     : reoptOld 
+
+******************************************
+*          VARIATION OPERATORS           *
+******************************************
+0.50  : fracGene 
+0.10  : fracRand 
+0.40  : fracAtomsMut 
+4.0   : mutationDegree
+
+****************************************
+*             CONSTRAINTS              *
+****************************************
+% IonDistances
+0.8
+% EndDistances
+
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   * 
+*****************************************
+% abinitioCode 
+3 3 3
+% ENDabinit
+
+% vacuumSize
+10 10 10
+% endVacuumSize
+
+% commandExecutable
+timeout 60 gulp < input > output
+% EndExecutable
+%%%%%%%%%%%%%%%%%%
+
+1      : numParallelCalcs 
+0      : whichCluster 

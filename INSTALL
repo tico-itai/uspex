@@ -1,0 +1,18 @@
+====== USPEX INSTALL =====
+
+1) Download USPEX source code
+2) Run ./install.sh
+3) Set up the environment variables: PATH and USPEXPATH
+
+   For Bash shell system, add lines in ~/.bashrc or ~/.profile or /etc/profile:
+     export PATH=$PATH:$HOME/USPEX_install
+     export USPEXPATH=$HOME/USPEX_install
+
+   For C shell system, add lines in ~/.cshrc or ~/.profile or /etc/profile:
+     setenv PATH "$PATH:$HOME/USPEX-install"
+     setenv USPEXPATH "$HOME/USPEX-install"
+
+4) Source your environment variables
+5) Run 'USPEX -h' for detailed information
+
+Have fun!

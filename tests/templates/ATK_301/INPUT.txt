@@ -1,0 +1,64 @@
+PARAMETERS EVOLUTIONARY ALGORITHM
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+USPEX : calculationMethod (USPEX, VCNEB, META)
+301   : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1     : optType (1=enthalpy, 2=volume, 3=hardness, 4=struc_order,...)
+1     : AutoFrac
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% numSpecies
+1 0
+0 1
+% EndNumSpecies
+%%%%%%%%%%%%%%%%%%%%
+% atomType
+Si O
+% EndAtomType
+******************************************
+*               POPULATION               *
+******************************************
+3     : populationSize 
+3     : initialPopSize 
+3     : numGenerations 
+3     : stopCrit 
+******************************************
+*       FIRST VAR. COMP. GENERATION      *
+******************************************
+3     : firstGeneMax 
+2     : minAt 
+4     : maxAt 
+******************************************
+*          VARIATION OPERATORS           *
+******************************************
+0.40  : fracGene 
+0.20  : fracRand 
+0.20  : fracAtomsMut 
+0.20  : fracTrans 
+****************************************
+*             CONSTRAINTS              *
+****************************************
+1.3   : minVectorLength 
+%%%%%%%%%%%%%%%%
+% IonDistances
+0.6 0.6
+0.0 0.6
+% EndDistances
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   * 
+*****************************************
+abinitioCode 
+10 10 10
+ENDabinit
+
+% KresolStart
+0.16 0.14 0.12
+%  Kresolend
+
+% commandExecutable
+timeout 120 atkpython < ATK.in > ATK.out
+% EndExecutable
+%%%%%%%%%%%%%%%%%%
+
+1     : numParallelCalcs 
+0     : whichCluster 

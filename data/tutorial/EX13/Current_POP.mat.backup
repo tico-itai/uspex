@@ -1,0 +1,530 @@
+# Created by Octave 4.2.2, Wed Feb 14 11:08:39 2024 JST <itai@itai-remote>
+# name: POP_STRUC
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 12
+# name: POPULATION
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 32
+# name: COORDINATES
+# type: matrix
+# rows: 96
+# columns: 3
+ 0 0 0.5
+ 0 0.25 0.625
+ 0.25 0 0.875
+ 0.25 0.25 0.75
+ 0.5 0.5 0
+ 0.5 0.75 0.125
+ 0.75 0.5 0.375
+ 0.75 0.75 0.25
+ 0 0.5 0
+ 0 0.75 0.125
+ 0.25 0.5 0.375
+ 0.25 0.75 0.25
+ 0.5 0 0
+ 0.5 0.25 0.125
+ 0.75 0 0.375
+ 0.75 0.25 0.25
+ 0 0 0
+ 0 0.25 0.125
+ 0.25 0 0.375
+ 0.25 0.25 0.25
+ 0.5 0.5 0.5
+ 0.5 0.75 0.625
+ 0.75 0.5 0.875
+ 0.75 0.75 0.75
+ 0 0.5 0.5
+ 0 0.75 0.625
+ 0.25 0.5 0.875
+ 0.25 0.75 0.75
+ 0.5 0 0.5
+ 0.5 0.25 0.625
+ 0.75 0 0.875
+ 0.75 0.25 0.75
+ 0 0 0.10405
+ 0 0.25 0.22905
+ 0 0 0.39595
+ 0 0.25 0.02095
+ 0.25 0 0.47905
+ 0.25 0.25 0.14595
+ 0.25 0 0.27095
+ 0.25 0.25 0.35405
+ 0.5 0.5 0.60405
+ 0.5 0.75 0.72905
+ 0.5 0.5 0.89595
+ 0.5 0.75 0.52095
+ 0.75 0.5 0.97905
+ 0.75 0.75 0.64595
+ 0.75 0.5 0.77095
+ 0.75 0.75 0.85405
+ 0 0.5 0.60405
+ 0 0.75 0.72905
+ 0 0.5 0.89595
+ 0 0.75 0.52095
+ 0.25 0.5 0.97905
+ 0.25 0.75 0.64595
+ 0.25 0.5 0.77095
+ 0.25 0.75 0.85405
+ 0.5 0 0.60405
+ 0.5 0.25 0.72905
+ 0.5 0 0.89595
+ 0.5 0.25 0.52095
+ 0.75 0 0.97905
+ 0.75 0.25 0.64595
+ 0.75 0 0.77095
+ 0.75 0.25 0.85405
+ 0 0 0.60405
+ 0 0.25 0.72905
+ 0 0 0.89595
+ 0 0.25 0.52095
+ 0.25 0 0.97905
+ 0.25 0.25 0.64595
+ 0.25 0 0.77095
+ 0.25 0.25 0.85405
+ 0.5 0.5 0.10405
+ 0.5 0.75 0.22905
+ 0.5 0.5 0.39595
+ 0.5 0.75 0.02095
+ 0.75 0.5 0.47905
+ 0.75 0.75 0.14595
+ 0.75 0.5 0.27095
+ 0.75 0.75 0.35405
+ 0 0.5 0.10405
+ 0 0.75 0.22905
+ 0 0.5 0.39595
+ 0 0.75 0.02095
+ 0.25 0.5 0.47905
+ 0.25 0.75 0.14595
+ 0.25 0.5 0.27095
+ 0.25 0.75 0.35405
+ 0.5 0 0.10405
+ 0.5 0.25 0.22905
+ 0.5 0 0.39595
+ 0.5 0.25 0.02095
+ 0.75 0 0.47905
+ 0.75 0.25 0.14595
+ 0.75 0 0.27095
+ 0.75 0.25 0.35405
+
+
+# name: INIT_COORD
+# type: matrix
+# rows: 96
+# columns: 3
+ 0 0 0.5
+ 0 0.25 0.625
+ 0.25 0 0.875
+ 0.25 0.25 0.75
+ 0.5 0.5 0
+ 0.5 0.75 0.125
+ 0.75 0.5 0.375
+ 0.75 0.75 0.25
+ 0 0.5 0
+ 0 0.75 0.125
+ 0.25 0.5 0.375
+ 0.25 0.75 0.25
+ 0.5 0 0
+ 0.5 0.25 0.125
+ 0.75 0 0.375
+ 0.75 0.25 0.25
+ 0 0 0
+ 0 0.25 0.125
+ 0.25 0 0.375
+ 0.25 0.25 0.25
+ 0.5 0.5 0.5
+ 0.5 0.75 0.625
+ 0.75 0.5 0.875
+ 0.75 0.75 0.75
+ 0 0.5 0.5
+ 0 0.75 0.625
+ 0.25 0.5 0.875
+ 0.25 0.75 0.75
+ 0.5 0 0.5
+ 0.5 0.25 0.625
+ 0.75 0 0.875
+ 0.75 0.25 0.75
+ 0 0 0.10405
+ 0 0.25 0.22905
+ 0 0 0.39595
+ 0 0.25 0.02095
+ 0.25 0 0.47905
+ 0.25 0.25 0.14595
+ 0.25 0 0.27095
+ 0.25 0.25 0.35405
+ 0.5 0.5 0.60405
+ 0.5 0.75 0.72905
+ 0.5 0.5 0.89595
+ 0.5 0.75 0.52095
+ 0.75 0.5 0.97905
+ 0.75 0.75 0.64595
+ 0.75 0.5 0.77095
+ 0.75 0.75 0.85405
+ 0 0.5 0.60405
+ 0 0.75 0.72905
+ 0 0.5 0.89595
+ 0 0.75 0.52095
+ 0.25 0.5 0.97905
+ 0.25 0.75 0.64595
+ 0.25 0.5 0.77095
+ 0.25 0.75 0.85405
+ 0.5 0 0.60405
+ 0.5 0.25 0.72905
+ 0.5 0 0.89595
+ 0.5 0.25 0.52095
+ 0.75 0 0.97905
+ 0.75 0.25 0.64595
+ 0.75 0 0.77095
+ 0.75 0.25 0.85405
+ 0 0 0.60405
+ 0 0.25 0.72905
+ 0 0 0.89595
+ 0 0.25 0.52095
+ 0.25 0 0.97905
+ 0.25 0.25 0.64595
+ 0.25 0 0.77095
+ 0.25 0.25 0.85405
+ 0.5 0.5 0.10405
+ 0.5 0.75 0.22905
+ 0.5 0.5 0.39595
+ 0.5 0.75 0.02095
+ 0.75 0.5 0.47905
+ 0.75 0.75 0.14595
+ 0.75 0.5 0.27095
+ 0.75 0.75 0.35405
+ 0 0.5 0.10405
+ 0 0.75 0.22905
+ 0 0.5 0.39595
+ 0 0.75 0.02095
+ 0.25 0.5 0.47905
+ 0.25 0.75 0.14595
+ 0.25 0.5 0.27095
+ 0.25 0.75 0.35405
+ 0.5 0 0.10405
+ 0.5 0.25 0.22905
+ 0.5 0 0.39595
+ 0.5 0.25 0.02095
+ 0.75 0 0.47905
+ 0.75 0.25 0.14595
+ 0.75 0 0.27095
+ 0.75 0.25 0.35405
+
+
+# name: LATTICE
+# type: matrix
+# rows: 3
+# columns: 3
+ 7.5684 0 0
+ 0 7.5684 0
+ 0 0 19.0292
+
+
+# name: INIT_LAT
+# type: matrix
+# rows: 3
+# columns: 3
+ 7.5684 0 0
+ 0 7.5684 0
+ 0 0 19.0292
+
+
+# name: numIons
+# type: matrix
+# rows: 1
+# columns: 3
+ 16 16 64
+
+
+# name: INIT_numIons
+# type: matrix
+# rows: 1
+# columns: 3
+ 16 16 64
+
+
+# name: struc_entr
+# type: sq_string
+# elements: 0
+
+
+# name: order
+# type: sq_string
+# elements: 0
+
+
+# name: dielectric_tensor
+# type: range
+# base, length, increment
+100000 6 0
+
+
+# name: gap
+# type: scalar
+100000
+
+
+# name: hardness
+# type: sq_string
+# elements: 0
+
+
+# name: powerfactor
+# type: scalar
+100000
+
+
+# name: FINGERPRINT
+# type: sq_string
+# elements: 0
+
+
+# name: symg
+# type: sq_string
+# elements: 0
+
+
+# name: K_POINTS
+# type: range
+# base, length, increment
+1 3 0
+
+
+# name: mag_moment
+# type: scalar
+0
+
+
+# name: magmom_ions
+# type: sq_string
+# elements: 0
+
+
+# name: magmom_ini
+# type: sq_string
+# elements: 0
+
+
+# name: ldaU
+# type: sq_string
+# elements: 0
+
+
+# name: S_order
+# type: sq_string
+# elements: 0
+
+
+# name: Step
+# type: scalar
+1
+
+
+# name: Enthalpies
+# type: scalar
+100000
+
+
+# name: Error
+# type: scalar
+0
+
+
+# name: Done
+# type: scalar
+0
+
+
+# name: ToDo
+# type: scalar
+0
+
+
+# name: Parents
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 2
+# name: parent
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+# name: enthalpy
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+
+
+# name: howCome
+# type: sq_string
+# elements: 1
+# length: 7
+  Seeds
+
+
+# name: JobID
+# type: scalar
+0.02
+
+
+# name: Folder
+# type: scalar
+1
+
+
+# name: Number
+# type: scalar
+0
+
+
+# name: cos_similarity_xrd_volchanged
+# type: scalar
+100000
+
+
+# name: exp_cos_similarity_xrd_volchanged
+# type: scalar
+100000
+
+
+
+
+# name: SOFTMODEParents
+# type: struct
+# ndims: 2
+ 0 0
+# length: 8
+# name: lattice
+# type: cell
+# rows: 0
+# columns: 0
+
+
+# name: coordinates
+# type: cell
+# rows: 0
+# columns: 0
+
+
+# name: fingerprint
+# type: cell
+# rows: 0
+# columns: 0
+
+
+# name: eignFre
+# type: cell
+# rows: 0
+# columns: 0
+
+
+# name: eignVec
+# type: cell
+# rows: 0
+# columns: 0
+
+
+# name: Softmode_Fre
+# type: cell
+# rows: 0
+# columns: 0
+
+
+# name: Softmode_num
+# type: cell
+# rows: 0
+# columns: 0
+
+
+# name: numIons
+# type: cell
+# rows: 0
+# columns: 0
+
+
+
+
+# name: SOFTMUTATED
+# type: struct
+# ndims: 2
+ 0 0
+# length: 3
+# name: FINGERPRINT
+# type: cell
+# rows: 0
+# columns: 0
+
+
+# name: mutatedAt
+# type: cell
+# rows: 0
+# columns: 0
+
+
+# name: fallBack
+# type: cell
+# rows: 0
+# columns: 0
+
+
+
+
+# name: resFolder
+# type: sq_string
+# elements: 1
+# length: 8
+results1
+
+
+# name: generation
+# type: scalar
+1
+
+
+# name: DoneOrder
+# type: scalar
+0
+
+
+# name: bodyCount
+# type: scalar
+0
+
+
+# name: ranking
+# type: scalar
+0
+
+
+# name: bad_rank
+# type: scalar
+0
+
+
+# name: fitness
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+# name: convex_hull
+# type: matrix
+# rows: 0
+# columns: 0
+
+
+# name: current_dir
+# type: sq_string
+# elements: 1
+# length: 20
+results1/generation1
+
+
+
+

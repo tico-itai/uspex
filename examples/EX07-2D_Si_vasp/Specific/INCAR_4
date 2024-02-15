@@ -1,0 +1,16 @@
+SYSTEM = local optimisation
+PREC = Normal
+ENCUT = 320.0
+EDIFF = 2e-5
+IBRION = 1
+ISIF = 3
+NSW = 110
+ISMEAR = 1 ; SIGMA = 0.060
+POTIM = 0.20
+ISYM = 2
+ISTART = 0
+LCHARG = FALSE
+LWAVE = FALSE
+EDIFFG = 2e-4
+NPAR = 4
+

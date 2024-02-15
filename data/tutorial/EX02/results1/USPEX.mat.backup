@@ -1,0 +1,251 @@
+# Created by Octave 4.2.2, Wed Feb 14 13:29:22 2024 JST <itai@itai-remote>
+# name: USPEX_STRUC
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 3
+# name: POPULATION
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 29
+# name: COORDINATES
+# type: sq_string
+# elements: 0
+
+
+# name: LATTICE
+# type: sq_string
+# elements: 0
+
+
+# name: numIons
+# type: sq_string
+# elements: 0
+
+
+# name: MOLECULES
+# type: sq_string
+# elements: 0
+
+
+# name: symg
+# type: sq_string
+# elements: 0
+
+
+# name: howCome
+# type: sq_string
+# elements: 0
+
+
+# name: order
+# type: sq_string
+# elements: 0
+
+
+# name: Fitness
+# type: sq_string
+# elements: 0
+
+
+# name: FINGERPRINT
+# type: sq_string
+# elements: 0
+
+
+# name: K_POINTS
+# type: sq_string
+# elements: 0
+
+
+# name: ToCount
+# type: sq_string
+# elements: 0
+
+
+# name: S_order
+# type: sq_string
+# elements: 0
+
+
+# name: gen
+# type: sq_string
+# elements: 0
+
+
+# name: struc_entr
+# type: sq_string
+# elements: 0
+
+
+# name: Enthalpies
+# type: sq_string
+# elements: 0
+
+
+# name: Parents
+# type: sq_string
+# elements: 0
+
+
+# name: Vol
+# type: sq_string
+# elements: 0
+
+
+# name: cell
+# type: sq_string
+# elements: 0
+
+
+# name: Surface_numIons
+# type: sq_string
+# elements: 0
+
+
+# name: numBlocks
+# type: sq_string
+# elements: 0
+
+
+# name: gap
+# type: sq_string
+# elements: 0
+
+
+# name: hardness
+# type: sq_string
+# elements: 0
+
+
+# name: mag_moment
+# type: sq_string
+# elements: 0
+
+
+# name: magmom_ions
+# type: sq_string
+# elements: 0
+
+
+# name: magmom_ini
+# type: sq_string
+# elements: 0
+
+
+# name: ldaU
+# type: sq_string
+# elements: 0
+
+
+# name: dielectric_tensor
+# type: sq_string
+# elements: 0
+
+
+# name: cos_similarity_xrd_volchanged
+# type: sq_string
+# elements: 0
+
+
+# name: exp_cos_similarity_xrd_volchanged
+# type: sq_string
+# elements: 0
+
+
+
+
+# name: GENERATION
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 5
+# name: quasiEntropy
+# type: sq_string
+# elements: 0
+
+
+# name: convex_hull
+# type: sq_string
+# elements: 0
+
+
+# name: composEntropy
+# type: sq_string
+# elements: 0
+
+
+# name: BestID
+# type: sq_string
+# elements: 0
+
+
+# name: ID
+# type: sq_string
+# elements: 0
+
+
+
+
+# name: SYSTEM
+# type: scalar struct
+# ndims: 2
+ 1 1
+# length: 3
+# name: atomType
+# type: matrix
+# rows: 1
+# columns: 3
+ 12 13 8
+
+
+# name: atomType_symbol
+# type: cell
+# rows: 1
+# columns: 3
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2
+Mg
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 2
+Al
+
+
+
+# name: <cell-element>
+# type: sq_string
+# elements: 1
+# length: 1
+O
+
+
+
+
+
+# name: Fp_weight
+# type: matrix
+# rows: 9
+# columns: 1
+ 0.02040816326530612
+ 0.04081632653061224
+ 0.08163265306122448
+ 0.04081632653061224
+ 0.08163265306122448
+ 0.163265306122449
+ 0.08163265306122448
+ 0.163265306122449
+ 0.3265306122448979
+
+
+
+
+
+

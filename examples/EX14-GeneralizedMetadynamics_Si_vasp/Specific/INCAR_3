@@ -1,0 +1,15 @@
+SYSTEM = Si
+PREC = Normal
+ENCUT = 320.0
+EDIFF = 1e-3
+IBRION = 1
+ISIF = 2
+NSW = 45
+ISMEAR = 1 ; SIGMA = 0.060
+POTIM = 0.20
+ISTART = 0
+LCHARG = FALSE
+LWAVE = FALSE
+#Crude optimisation
+EDIFFG = 1e-2
+

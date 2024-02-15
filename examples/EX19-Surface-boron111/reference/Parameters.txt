@@ -1,0 +1,58 @@
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+******************************************
+USPEX  : calculationMethod (USPEX, VCNEB, META)
+201    : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1      : optType (1=enthalpy, 2=volume, 3=hardness, 4=struc_order, 5=aver_dist)
+3.0    : thicknessS (thickness of surface region, 2 A by default )
+0.0    : thicknessB (thickness of buffer region in substrate, 3 A by default)
+1      : reconstruct (only used in surface)
+
+% numSpecies
+10
+% EndNumSpecies
+
+% atomType
+B
+% EndAtomType
+
+% symmetries
+2-17
+% endSymmetries
+
+******************************************
+*               POPULATION               *
+******************************************
+40    : populationSize (how many individuals per generation)
+60    : initialPopSize 
+50    : numGenerations (how many generations shall be calculated)
+20    : stopCrit 
+1     : reoptOld
+0.30  : fracGene (fraction of generation produced by heredity)
+0.50  : fracRand (fraction of generation produced randomly from space groups)
+0.10  : fracAtomsMut (fraction of the generation produced by softmutation)
+0.10  : fracTrans (fraction of the generation produced by transmutations)
+
+% IonDistances
+1.0 
+% EndDistances
+
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   * 
+*****************************************
+
+CFN    : whichCluster (0: no-job-script, 1: local submission, 2: remote submission)
+20     : numParallelCalcs (how many parallel calculations shall be performed)
+
+% abinitioCode
+1 1 1
+% ENDabinit
+
+% KresolStart
+0.16 0.12 0.09
+%  Kresolend
+
+0      : pickUpYN (if pickUpYN~=0 , then a previous calculation will be
+0      : pickUpGen (at which generation shall the previous calculation be picked
+0      : pickUpFolder (number of the results folder to be used. If = 0 , then

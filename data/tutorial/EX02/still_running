@@ -1,0 +1,6 @@
+This file is present for two possible reasons
+1, MATLAB is still running
+2, MATLAB exits with error
+If it stays for long time when numParallel is on
+Matlab is either in dead loop or exits with error.
+please do check it                              

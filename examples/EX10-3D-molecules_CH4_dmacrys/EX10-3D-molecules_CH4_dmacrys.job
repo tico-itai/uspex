@@ -1,0 +1,11 @@
+#!/bin/sh
+#BSUB -sp 60
+#BSUB -q  amd
+#BSUB -a  intelmpi
+#BSUB -R  "span[ptile=1]"
+#BSUB -J  EX10
+#BSUB -W  240:00
+#BSUB -n  1
+
+date > log
+USPEX -r >> log

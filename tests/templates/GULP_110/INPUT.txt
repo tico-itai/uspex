@@ -1,0 +1,58 @@
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+USPEX : calculationMethod (USPEX, VCNEB, META)
+110   : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1     : optType (optimise by: 1=enthalpy, 2=volume, 3=hardness,...)
+1     : AutoFrac
+
+% atomType
+C H F
+% EndAtomType
+
+% numSpecies
+4
+% EndNumSpecies
+******************************************
+*               POPULATION               *
+******************************************
+10    : populationSize 
+10    : initialPopSize 
+4     : numGenerations 
+4     : stopCrit 
+1     : reoptOld
+******************************************
+*          VARIATION OPERATORS           *
+******************************************
+0.40  : fracGene 
+0.30  : fracRand 
+0.20  : fracAtomsMut 
+0.10  : fracRotMut 
+0.00  : fracLatMut
+****************************************
+*             CONSTRAINTS              *
+****************************************
+% IonDistances
+1.0 1.6 1.2
+1.6 1.6 1.2
+1.2 1.2 1.6
+% EndDistances
+
+% MolCenters
+3.0
+% EndMol
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   * 
+*****************************************
+% abinitioCode 
+3 3 3 
+% ENDabinit
+
+% commandExecutable
+timeout 60 gulp < input > output
+% EndExecutable
+
+1     : numParallelCalcs 
+0     : whichCluster 
+0.06  : toleranceFing
+0.10  : toleranceBestHM 

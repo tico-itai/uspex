@@ -1,0 +1,47 @@
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+USPEX : calculationMethod (USPEX, VCNEB, META)
+300   : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+-4    : optType (1=enthalpy, 2=volume, 3=hardness, 4=struc_order,...)
+
+% atomType
+Co Ti O
+% EndAtomType
+
+% numSpecies
+16 16 64
+% EndNumSpecies
+******************************************
+*               POPULATION               *
+******************************************
+5     : populationSize 
+0     : initialPopSize 
+3     : numGenerations 
+3     : stopCrit 
+******************************************
+*          VARIATION OPERATORS           *
+******************************************
+0.00  : fracGene 
+0.00  : fracRand 
+0.00  : fracLatMut 
+0.00  : fracAtomsMut 
+1.00  : fracPerm 
+31    : howManySwaps 
+% specificSwaps 
+1 2
+% EndSpecific
+****************************************
+*             CONSTRAINTS              *
+****************************************
+% IonDistances
+0.5 0.5 0.5
+0.5 0.5 0.5
+0.5 0.5 0.5
+
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   *
+*****************************************
+abinitioCode
+0
+ENDabinit

@@ -1,0 +1,666 @@
+-----------------------------------------------------------------------------------
+--------------------------- USPEX 10.0.0 (09/28/2013)-------------------------------
+-            Evolutionary Algorithm Code for Structure Prediction                 -
+-               more info at  http://uspex.stonyrbook.edu/                        -
+-----------------------------------------------------------------------------------
+
+*---------------------------------------------------------------------------------*
+|  Please cite the following suggested literatures                                |
+|  when you publish the results obtained from USPEX                               |
+*---------------------------------------------------------------------------------*
+|----------------------------  General USPEX  ----------------------------------- |
+|  Oganov A.R., Glass C.W. (2006). Crystal structure prediction                   |
+|  using evolutionary algorithms: principles and applications.                    |
+|  J. Chem. Phys. 124,244704                                                      |
+*---------------------------------------------------------------------------------*
+|  Oganov AR, Stokes H, Valle M, (2011)                                           |
+|  How evolutionary crystal structure prediction works - and why.                 |
+|  Acc. Chem. Res. 44, 227-237                                                    |
+*---------------------------------------------------------------------------------*
+|  Lyakhov AO, Oganov AR, Stokes H, Zhu Q, (2013)                                 |
+|  New developments in evolutionary structure prediction algorithm USPEX.         |
+|  Comp. Phys. Comm., 184, 1172-1182                                              |
+*---------------------------------------------------------------------------------*
+
+*---------------------------      Surfaces       ---------------------------------*
+|  Zhu Q, Li L, Oganov AR, Allen PB(2013)  Evolutionary method for predicting     |
+|  surface reconstructions with variable stoichiometry.                           |
+|  Phys. Rev. B, 87, 195317                                                       |
+*---------------------------------------------------------------------------------*
+            Job Starts at                 18-Dec-2013 12:28:44
+-----------------------------------------------------------------------------------
+---------------------------Block for system description----------------------------
+-----------------------------------------------------------------------------------
+                        Dimensionality  :   2
+                        Molecular       :   0 (1:Yes, 0,No)
+                   Variable Composition :   1 (1:Yes, 0,No)
+-----------------------------------------------------------------------------------
+---------------------------Block for atomic description----------------------------
+-----------------------------------------------------------------------------------
+    There are 1 types of atoms in the system:    B
+    Minimum distances:                      B: 1.00  
+
+    The investigated system is: [ B_10]
+The reconstruction cell can be varied up to  1 multiplications: 
+Please see the POSCAR_SUBSTRATE for the details of substrate environment.
+
+-----------------------------------------------------------------------------------
+--------------------------Block for evolutionary algorithm-------------------------
+-----------------------------------------------------------------------------------
+                 Number of Generations  :      50
+               Initial Population Size  :      60
+               General Population Size  :      40
+------------------------------------------------------------------------------------
+-------------------------------AB INITIO CALCULATIONS ------------------------------
+------------------------------------------------------------------------------------
+*  There are  3 local relaxation steps for each individual structures *
+Step  Abinitio Code    K-resolution 
+  1      VASP              0.160
+  2      VASP              0.120
+  3      VASP              0.090
+
+The calculations are performed in Parallel mode on CFN supercomputer
+  20 parallel calculations are performed simutaneously
+
+   1    random    [     4     ]    -955.675   1800.05142  [2  2  1]   N/A
+   2    random    [     3     ]    -957.325   1800.05142  [2  2  1]   N/A
+   3    random    [     8     ]    -981.838   1800.05142  [2  2  1]   N/A
+   4    random    [     4     ]    -953.418   1800.05142  [2  2  1]   N/A
+   5    random    [     6     ]    -971.508   1800.05142  [2  2  1]   N/A
+   6    random    [     5     ]    -964.895   1800.05142  [2  2  1]   N/A
+   7    random    [     10    ]    -988.131   1800.05142  [2  2  1]   N/A
+   8    random    [     8     ]    -985.194   1800.05142  [2  2  1]   N/A
+   9    random    [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+  10    random    [     2     ]    -944.641   1800.05142  [2  2  1]   N/A
+  11    random    [     4     ]    -957.453   1800.05142  [2  2  1]   N/A
+  12    random    [     5     ]    -960.117   1800.05142  [2  2  1]   N/A
+  13    random    [     10    ]    -997.228   1800.05142  [2  2  1]   N/A
+  14    random    [     8     ]    -984.502   1800.05142  [2  2  1]   N/A
+  15    random    [     7     ]    -977.963   1800.05142  [2  2  1]   N/A
+  16    random    [     3     ]    -953.086   1800.05142  [2  2  1]   N/A
+  17    random    [     7     ]    -967.736   1800.05142  [2  2  1]   N/A
+  18    random    [     10    ]    -990.953   1800.05142  [2  2  1]   N/A
+  19    random    [     3     ]    -945.334   1800.05142  [2  2  1]   N/A
+  20    random    [     6     ]    -975.496   1800.05142  [2  2  1]   N/A
+  21    random    [     4     ]    -957.268   1800.05142  [2  2  1]   N/A
+  22    random    [     10    ]    -997.755   1800.05142  [2  2  1]   N/A
+  23    random    [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+  24    random    [     10    ]    -999.455   1800.05142  [2  2  1]   N/A
+  25    random    [     6     ]    -969.250   1800.05142  [2  2  1]   N/A
+  26    random    [     7     ]    -980.578   1800.05142  [2  2  1]   N/A
+  27    random    [     5     ]    -963.655   1800.05142  [2  2  1]   N/A
+  28    random    [     4     ]    -961.988   1800.05142  [2  2  1]   N/A
+  29    random    [     9     ]    -993.253   1800.05142  [2  2  1]   N/A
+  30    random    [     8     ]    -985.101   1800.05142  [2  2  1]   N/A
+  31    random    [     9     ]    -989.695   1800.05142  [2  2  1]   N/A
+  32    random    [     2     ]    -940.990   1800.05142  [2  2  1]   N/A
+  33    random    [     8     ]    -982.131   1800.05142  [2  2  1]   N/A
+  34    random    [     10    ]    -998.503   1800.05142  [2  2  1]   N/A
+  35    random    [     10    ]    -994.656   1800.05142  [2  2  1]   N/A
+  36    random    [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+  37    random    [     1     ]    -936.571   1800.05142  [2  2  1]   N/A
+  38    random    [     9     ]    -994.337   1800.05142  [2  2  1]   N/A
+  39    random    [     8     ]    -978.713   1800.05142  [2  2  1]   N/A
+  40    random    [     5     ]    -962.019   1800.05142  [2  2  1]   N/A
+  41    random    [     2     ]    -944.313   1800.05142  [2  2  1]   N/A
+  42    random    [     6     ]    -962.275   1800.05142  [2  2  1]   N/A
+  43    random    [     6     ]    -966.756   1800.05142  [2  2  1]   N/A
+  44    random    [     2     ]    -945.492   1800.05142  [2  2  1]   N/A
+  45    random    [     1     ]    -936.804   1800.05142  [2  2  1]   N/A
+  46    random    [     4     ]    -953.079   1800.05142  [2  2  1]   N/A
+  47    random    [     2     ]    -945.492   1800.05142  [2  2  1]   N/A
+  48    random    [     2     ]    -944.644   1800.05142  [2  2  1]   N/A
+  49    random    [     7     ]    -962.473   1800.05142  [2  2  1]   N/A
+  50    random    [     4     ]    -957.847   1800.05142  [2  2  1]   N/A
+  51    random    [     9     ]    -988.846   1800.05142  [2  2  1]   N/A
+  52    random    [     6     ]    -971.967   1800.05142  [2  2  1]   N/A
+  53    random    [     4     ]    -957.531   1800.05142  [2  2  1]   N/A
+  54    random    [     5     ]    -958.307   1800.05142  [2  2  1]   N/A
+  55    random    [     1     ]    -936.804   1800.05142  [2  2  1]   N/A
+  56    random    [     10    ]    -998.315   1800.05142  [2  2  1]   N/A
+  57    random    [     6     ]    -971.174   1800.05142  [2  2  1]   N/A
+  58    random    [     2     ]    -944.313   1800.05142  [2  2  1]   N/A
+  59    random    [     6     ]    -972.721   1800.05142  [2  2  1]   N/A
+  60    random    [     7     ]    -976.866   1800.05142  [2  2  1]   N/A
+------------------------------------------------------------------------------------
+------------------------- Local optimization finished ------------------------------
+------------------------------------------------------------------------------------
+--------------------------  SUMMARY of Generation   1-------------------------------
+-----------------     Correlation coefficient =     NaN   -------------------
+------------------------------------------------------------------------------------
+---------------------- Proceeding to  Selection Process ----------------------------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+--------------------------------VARIATION OPERATORS---------------------------------
+------------------------------------------------------------------------------------
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.30
+    fraction of generation produced randomly           :     0.50
+    fraction of generation produced by softmuation     :     0.10
+    fraction of generation produced by Permutation     :     0.00
+    fraction of generation produced by transmutation   :     0.10
+------------------------------------------------------------------------------------
+------------------------Variation operators applied---------------------------------
+------------------------------------------------------------------------------------
+              12 structures produced by heredity     
+              20 structures produced randomly        
+               4 structures produced by softmuation  
+               0 structures produced by Permutation  
+               0 structures produced by Latmutation  
+               6 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_  2 
+----------------Proceeding to the new generation relaxation-------------------------
+       20 parallel calculations are performed simutaneously
+------------------------------------------------------------------------------------
+  61   heredity   [     2     ]    -944.730   1800.05142  [2  2  1]   N/A
+  62   heredity   [     6     ]    -970.766   1800.05142  [2  2  1]   N/A
+  63   heredity   [     5     ]    -963.867   1800.05142  [2  2  1]   N/A
+  64   heredity   [     3     ]    -952.006   1800.05142  [2  2  1]   N/A
+  65   heredity   [     7     ]    -977.759   1800.05142  [2  2  1]   N/A
+  66   heredity   [     8     ]    -984.745   1800.05142  [2  2  1]   N/A
+  67   heredity   [     7     ]    -977.962   1800.05142  [2  2  1]   N/A
+  68   heredity   [     8     ]    -984.782   1800.05142  [2  2  1]   N/A
+  69   heredity   [     10    ]    -965.399   1800.05142  [2  2  1]   N/A
+  70   heredity   [     5     ]    -967.599   1800.05142  [2  2  1]   N/A
+  71   heredity   [     4     ]    -961.989   1800.05142  [2  2  1]   N/A
+  72   heredity   [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+  73 softmutation [     6     ]    -975.503   1800.05142  [2  2  1]   N/A
+  74 softmutation [     3     ]    -957.325   1800.05142  [2  2  1]   N/A
+  75 softmutation [     4     ]    -960.183   1800.05142  [2  2  1]   N/A
+  76 softmutation [     2     ]    -945.483   1800.05142  [2  2  1]   N/A
+  77    random    [     7     ]    -979.346   1800.05142  [2  2  1]   N/A
+  78    random    [     2     ]    -942.434   1800.05142  [2  2  1]   N/A
+  79    random    [     6     ]    -970.700   1800.05142  [2  2  1]   N/A
+  80    random    [     10    ]    -996.136   1800.05142  [2  2  1]   N/A
+  81    random    [     4     ]    -951.540   1800.05142  [2  2  1]   N/A
+  82    random    [     4     ]    -959.696   1800.05142  [2  2  1]   N/A
+  83    random    [     2     ]    -944.313   1800.05142  [2  2  1]   N/A
+  84    random    [     6     ]    -954.387   1800.05142  [2  2  1]   N/A
+  85    random    [     4     ]    -956.775   1800.05142  [2  2  1]   N/A
+  86    random    [     1     ]    -936.635   1800.05142  [2  2  1]   N/A
+  87    random    [     3     ]    -946.434   1800.05142  [2  2  1]   N/A
+  88    random    [     7     ]    -980.578   1800.05142  [2  2  1]   N/A
+  89    random    [     2     ]    -944.313   1800.05142  [2  2  1]   N/A
+  90    random    [     5     ]    -967.654   1800.05142  [2  2  1]   N/A
+  91    random    [     1     ]    -935.036   1800.05142  [2  2  1]   N/A
+  92    random    [     3     ]    -945.334   1800.05142  [2  2  1]   N/A
+  93    random    [     8     ]    -985.539   1800.05142  [2  2  1]   N/A
+  98    random    [     9     ]    -990.589   1800.05142  [2  2  1]   N/A
+  99    random    [     5     ]    -968.097   1800.05142  [2  2  1]   N/A
+ 100   keptBest   [     3     ]    -957.325   1800.05142  [2  2  1]   N/A
+ 101   keptBest   [     6     ]    -975.497   1800.05142  [2  2  1]   N/A
+ 102    random    [     1     ]    -935.036   1800.05142  [2  2  1]   N/A
+ 103   keptBest   [     4     ]    -961.988   1800.05142  [2  2  1]   N/A
+ 104   keptBest   [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 105   keptBest   [     7     ]    -980.577   1800.05142  [2  2  1]   N/A
+ 106   keptBest   [     8     ]    -985.284   1800.05142  [2  2  1]   N/A
+------------------------------------------------------------------------------------
+------------------------- Local optimization finished ------------------------------
+------------------------------------------------------------------------------------
+--------------------------  SUMMARY of Generation   2-------------------------------
+-----------------     Correlation coefficient =     NaN   -------------------
+------------------------------------------------------------------------------------
+---------------------- Proceeding to  Selection Process ----------------------------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+--------------------------------VARIATION OPERATORS---------------------------------
+------------------------------------------------------------------------------------
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.30
+    fraction of generation produced randomly           :     0.50
+    fraction of generation produced by softmuation     :     0.10
+    fraction of generation produced by Permutation     :     0.00
+    fraction of generation produced by transmutation   :     0.10
+------------------------------------------------------------------------------------
+------------------------Variation operators applied---------------------------------
+------------------------------------------------------------------------------------
+              12 structures produced by heredity     
+              20 structures produced randomly        
+               4 structures produced by softmuation  
+               0 structures produced by Permutation  
+               0 structures produced by Latmutation  
+               6 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_  3 
+----------------Proceeding to the new generation relaxation-------------------------
+       20 parallel calculations are performed simutaneously
+------------------------------------------------------------------------------------
+ 107   heredity   [     8     ]    -983.205   1800.05142  [2  2  1]   N/A
+ 108   heredity   [     9     ]    -990.548   1800.05142  [2  2  1]   N/A
+ 109   heredity   [     6     ]    -973.394   1800.05142  [2  2  1]   N/A
+ 110   heredity   [     7     ]    -953.234   1800.05142  [2  2  1]   N/A
+ 111   heredity   [     8     ]    -953.377   1800.05142  [2  2  1]   N/A
+ 112   heredity   [     7     ]    -978.480   1800.05142  [2  2  1]   N/A
+ 113   heredity   [     2     ]    -948.482   1800.05142  [2  2  1]   N/A
+ 114   heredity   [     4     ]    -950.967   1800.05142  [2  2  1]   N/A
+ 115   heredity   [     5     ]    -964.403   1800.05142  [2  2  1]   N/A
+ 116   heredity   [     6     ]    -966.805   1800.05142  [2  2  1]   N/A
+ 117   heredity   [     4     ]    -960.045   1800.05142  [2  2  1]   N/A
+ 118 softmutation [     3     ]    -952.433   1800.05142  [2  2  1]   N/A
+ 119 softmutation [     10    ]    -989.874   1800.05142  [2  2  1]   N/A
+ 120 softmutation [     6     ]    -975.505   1800.05142  [2  2  1]   N/A
+ 121 softmutation [     7     ]    -980.578   1800.05142  [2  2  1]   N/A
+ 122    random    [     7     ]    -974.817   1800.05142  [2  2  1]   N/A
+ 123    random    [     7     ]    -975.654   1800.05142  [2  2  1]   N/A
+ 124    random    [     3     ]    -948.278   1800.05142  [2  2  1]   N/A
+ 125    random    [     7     ]    -978.990   1800.05142  [2  2  1]   N/A
+ 126   heredity   [     5     ]    -963.085   1800.05142  [2  2  1]   N/A
+ 127    random    [     6     ]    -975.275   1800.05142  [2  2  1]   N/A
+ 128    random    [     3     ]    -949.800   1800.05142  [2  2  1]   N/A
+ 129    random    [     8     ]    -987.043   1800.05142  [2  2  1]   N/A
+ 130    random    [     1     ]    -936.853   1800.05142  [2  2  1]   N/A
+ 131    random    [     8     ]    -983.576   1800.05142  [2  2  1]   N/A
+ 132    random    [     10    ]    -999.002   1800.05142  [2  2  1]   N/A
+ 133    random    [     3     ]    -945.334   1800.05142  [2  2  1]   N/A
+ 134    random    [     3     ]    -949.135   1800.05142  [2  2  1]   N/A
+ 135    random    [     8     ]    -983.474   1800.05142  [2  2  1]   N/A
+ 136    random    [     9     ]    -984.670   1800.05142  [2  2  1]   N/A
+ 137    random    [     5     ]    -966.490   1800.05142  [2  2  1]   N/A
+ 138    random    [     4     ]    -958.344   1800.05142  [2  2  1]   N/A
+ 139    random    [     6     ]    -971.177   1800.05142  [2  2  1]   N/A
+ 140    random    [     4     ]    -955.999   1800.05142  [2  2  1]   N/A
+ 141    random    [     6     ]    -969.928   1800.05142  [2  2  1]   N/A
+ 142    random    [     10    ]    -997.486   1800.05142  [2  2  1]   N/A
+ 146   keptBest   [     3     ]    -957.325   1800.05142  [2  2  1]   N/A
+ 147   keptBest   [     6     ]    -975.503   1800.05142  [2  2  1]   N/A
+ 149   keptBest   [     4     ]    -961.989   1800.05142  [2  2  1]   N/A
+ 150   keptBest   [     5     ]    -968.099   1800.05142  [2  2  1]   N/A
+ 151   keptBest   [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 152   keptBest   [     8     ]    -985.548   1800.05142  [2  2  1]   N/A
+------------------------------------------------------------------------------------
+------------------------- Local optimization finished ------------------------------
+------------------------------------------------------------------------------------
+--------------------------  SUMMARY of Generation   3-------------------------------
+-----------------     Correlation coefficient =     NaN   -------------------
+------------------------------------------------------------------------------------
+---------------------- Proceeding to  Selection Process ----------------------------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+--------------------------------VARIATION OPERATORS---------------------------------
+------------------------------------------------------------------------------------
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.30
+    fraction of generation produced randomly           :     0.50
+    fraction of generation produced by softmuation     :     0.10
+    fraction of generation produced by Permutation     :     0.00
+    fraction of generation produced by transmutation   :     0.10
+------------------------------------------------------------------------------------
+------------------------Variation operators applied---------------------------------
+------------------------------------------------------------------------------------
+              12 structures produced by heredity     
+              20 structures produced randomly        
+               4 structures produced by softmuation  
+               0 structures produced by Permutation  
+               0 structures produced by Latmutation  
+               6 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_  4 
+----------------Proceeding to the new generation relaxation-------------------------
+       20 parallel calculations are performed simutaneously
+------------------------------------------------------------------------------------
+ 153   heredity   [     4     ]    -956.246   1800.05142  [2  2  1]   N/A
+ 154   heredity   [     8     ]    -983.997   1800.05142  [2  2  1]   N/A
+ 155   heredity   [     7     ]    -977.700   1800.05142  [2  2  1]   N/A
+ 156   heredity   [     6     ]    -975.481   1800.05142  [2  2  1]   N/A
+ 157   heredity   [     9     ]    -963.176   1800.05142  [2  2  1]   N/A
+ 158   heredity   [     4     ]    -960.047   1800.05142  [2  2  1]   N/A
+ 159   heredity   [     3     ]    -952.006   1800.05142  [2  2  1]   N/A
+ 160   heredity   [     6     ]    -972.880   1800.05142  [2  2  1]   N/A
+ 161   heredity   [     7     ]    -977.962   1800.05142  [2  2  1]   N/A
+ 162   heredity   [     4     ]    -957.288   1800.05142  [2  2  1]   N/A
+ 163   heredity   [     9     ]    -992.152   1800.05142  [2  2  1]   N/A
+ 164   mutation   [     6     ]    -975.505   1800.05142  [2  2  1]   N/A
+ 165   mutation   [     3     ]    -957.325   1800.05142  [2  2  1]   N/A
+ 166   mutation   [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 167   mutation   [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 168    random    [     3     ]    -950.317   1800.05142  [2  2  1]   N/A
+ 169    random    [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 170    random    [     4     ]    -953.417   1800.05142  [2  2  1]   N/A
+ 171    random    [     3     ]    -945.334   1800.05142  [2  2  1]   N/A
+ 172   heredity   [     6     ]    -970.892   1800.05142  [2  2  1]   N/A
+ 173    random    [     8     ]    -985.881   1800.05142  [2  2  1]   N/A
+ 174    random    [     10    ]    -994.708   1800.05142  [2  2  1]   N/A
+ 175    random    [     5     ]    -963.178   1800.05142  [2  2  1]   N/A
+ 176    random    [     5     ]    -967.599   1800.05142  [2  2  1]   N/A
+ 177    random    [     9     ]    -991.257   1800.05142  [2  2  1]   N/A
+ 178    random    [     3     ]    -945.334   1800.05142  [2  2  1]   N/A
+ 179    random    [     6     ]    -971.780   1800.05142  [2  2  1]   N/A
+ 180    random    [     4     ]    -960.028   1800.05142  [2  2  1]   N/A
+ 181    random    [     10    ]    -995.643   1800.05142  [2  2  1]   N/A
+ 182    random    [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 183    random    [     6     ]    -975.470   1800.05142  [2  2  1]   N/A
+ 184    random    [     8     ]    -984.077   1800.05142  [2  2  1]   N/A
+ 185    random    [     7     ]    -971.855   1800.05142  [2  2  1]   N/A
+ 186    random    [     7     ]    -978.641   1800.05142  [2  2  1]   N/A
+ 187    random    [     6     ]    -970.801   1800.05142  [2  2  1]   N/A
+ 188    random    [     9     ]    -993.338   1800.05142  [2  2  1]   N/A
+ 192   keptBest   [     3     ]    -957.325   1800.05142  [2  2  1]   N/A
+ 193   keptBest   [     4     ]    -961.989   1800.05142  [2  2  1]   N/A
+ 194   keptBest   [     6     ]    -975.471   1800.05142  [2  2  1]   N/A
+ 195   keptBest   [     5     ]    -968.099   1800.05142  [2  2  1]   N/A
+ 196   keptBest   [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 197   keptBest   [     6     ]    -975.505   1800.05142  [2  2  1]   N/A
+------------------------------------------------------------------------------------
+------------------------- Local optimization finished ------------------------------
+------------------------------------------------------------------------------------
+--------------------------  SUMMARY of Generation   4-------------------------------
+-----------------     Correlation coefficient =     NaN   -------------------
+------------------------------------------------------------------------------------
+---------------------- Proceeding to  Selection Process ----------------------------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+--------------------------------VARIATION OPERATORS---------------------------------
+------------------------------------------------------------------------------------
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.30
+    fraction of generation produced randomly           :     0.50
+    fraction of generation produced by softmuation     :     0.10
+    fraction of generation produced by Permutation     :     0.00
+    fraction of generation produced by transmutation   :     0.10
+------------------------------------------------------------------------------------
+------------------------Variation operators applied---------------------------------
+------------------------------------------------------------------------------------
+              12 structures produced by heredity     
+              20 structures produced randomly        
+               4 structures produced by softmuation  
+               0 structures produced by Permutation  
+               0 structures produced by Latmutation  
+               6 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_  5 
+----------------Proceeding to the new generation relaxation-------------------------
+       20 parallel calculations are performed simutaneously
+------------------------------------------------------------------------------------
+ 199   heredity   [     6     ]    -969.583   1800.05142  [2  2  1]   N/A
+ 200   heredity   [     9     ]    -991.679   1800.05142  [2  2  1]   N/A
+ 201   heredity   [     7     ]    -970.236   1800.05142  [2  2  1]   N/A
+ 202   heredity   [     7     ]    -978.470   1800.05142  [2  2  1]   N/A
+ 203   heredity   [     8     ]    -982.246   1800.05142  [2  2  1]   N/A
+ 204   heredity   [     9     ]    -991.394   1800.05142  [2  2  1]   N/A
+ 205   heredity   [     7     ]    -975.739   1800.05142  [2  2  1]   N/A
+ 206   heredity   [     6     ]    -969.958   1800.05142  [2  2  1]   N/A
+ 207   heredity   [     7     ]    -973.499   1800.05142  [2  2  1]   N/A
+ 208   heredity   [     6     ]    -969.004   1800.05142  [2  2  1]   N/A
+ 209   heredity   [     7     ]    -978.213   1800.05142  [2  2  1]   N/A
+ 210   heredity   [     6     ]    -970.867   1800.05142  [2  2  1]   N/A
+ 211 softmutation [     3     ]    -953.086   1800.05142  [2  2  1]   N/A
+ 212   mutation   [     4     ]    -960.183   1800.05142  [2  2  1]   N/A
+ 213   mutation   [     5     ]    -967.599   1800.05142  [2  2  1]   N/A
+ 214 softmutation [     6     ]    -973.133   1800.05142  [2  2  1]   N/A
+ 215    random    [     7     ]    -970.554   1800.05142  [2  2  1]   N/A
+ 216    random    [     8     ]    -983.733   1800.05142  [2  2  1]   N/A
+ 217    random    [     2     ]    -944.635   1800.05142  [2  2  1]   N/A
+ 218    random    [     2     ]    -944.632   1800.05142  [2  2  1]   N/A
+ 219    random    [     2     ]    -941.043   1800.05142  [2  2  1]   N/A
+ 220    random    [     8     ]    -932.938   1800.05142  [2  2  1]   N/A
+ 221    random    [     4     ]    -959.369   1800.05142  [2  2  1]   N/A
+ 222    random    [     7     ]    -965.495   1800.05142  [2  2  1]   N/A
+ 223    random    [     7     ]    -975.837   1800.05142  [2  2  1]   N/A
+ 224    random    [     3     ]    -948.787   1800.05142  [2  2  1]   N/A
+ 225    random    [     2     ]    -944.729   1800.05142  [2  2  1]   N/A
+ 226    random    [     4     ]    -959.612   1800.05142  [2  2  1]   N/A
+ 227    random    [     7     ]    -979.256   1800.05142  [2  2  1]   N/A
+ 228    random    [     2     ]    -945.583   1800.05142  [2  2  1]   N/A
+ 229    random    [     9     ]    -988.965   1800.05142  [2  2  1]   N/A
+ 230    random    [     6     ]    -968.211   1800.05142  [2  2  1]   N/A
+ 231    random    [     1     ]    -936.853   1800.05142  [2  2  1]   N/A
+ 232    random    [     1     ]    -936.658   1800.05142  [2  2  1]   N/A
+ 233    random    [     2     ]    -944.637   1800.05142  [2  2  1]   N/A
+ 234    random    [     8     ]    -983.164   1800.05142  [2  2  1]   N/A
+ 238   keptBest   [     3     ]    -957.325   1800.05142  [2  2  1]   N/A
+ 239   keptBest   [     6     ]    -975.505   1800.05142  [2  2  1]   N/A
+ 240   keptBest   [     4     ]    -961.989   1800.05142  [2  2  1]   N/A
+ 241   keptBest   [     5     ]    -968.099   1800.05142  [2  2  1]   N/A
+ 242   keptBest   [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 244   keptBest   [     8     ]    -986.164   1800.05142  [2  2  1]   N/A
+------------------------------------------------------------------------------------
+------------------------- Local optimization finished ------------------------------
+------------------------------------------------------------------------------------
+--------------------------  SUMMARY of Generation   5-------------------------------
+-----------------     Correlation coefficient =     NaN   -------------------
+------------------------------------------------------------------------------------
+---------------------- Proceeding to  Selection Process ----------------------------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+--------------------------------VARIATION OPERATORS---------------------------------
+------------------------------------------------------------------------------------
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.30
+    fraction of generation produced randomly           :     0.50
+    fraction of generation produced by softmuation     :     0.10
+    fraction of generation produced by Permutation     :     0.00
+    fraction of generation produced by transmutation   :     0.10
+------------------------------------------------------------------------------------
+------------------------Variation operators applied---------------------------------
+------------------------------------------------------------------------------------
+              12 structures produced by heredity     
+              20 structures produced randomly        
+               4 structures produced by softmuation  
+               0 structures produced by Permutation  
+               0 structures produced by Latmutation  
+               6 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_  6 
+----------------Proceeding to the new generation relaxation-------------------------
+       20 parallel calculations are performed simutaneously
+------------------------------------------------------------------------------------
+ 245   heredity   [     4     ]    -958.389   1800.05142  [2  2  1]   N/A
+ 246   heredity   [     6     ]    -971.934   1800.05142  [2  2  1]   N/A
+ 247   heredity   [     6     ]    -968.102   1800.05142  [2  2  1]   N/A
+ 248   heredity   [     5     ]    -965.881   1800.05142  [2  2  1]   N/A
+ 249   heredity   [     2     ]    -948.482   1800.05142  [2  2  1]   N/A
+ 250   heredity   [     8     ]    -986.164   1800.05142  [2  2  1]   N/A
+ 251   heredity   [     7     ]    -977.866   1800.05142  [2  2  1]   N/A
+ 252   heredity   [     6     ]    -968.487   1800.05142  [2  2  1]   N/A
+ 253   heredity   [     5     ]    -958.148   1800.05142  [2  2  1]   N/A
+ 254   heredity   [     7     ]    -970.547   1800.05142  [2  2  1]   N/A
+ 255   heredity   [     9     ]    -987.550   1800.05142  [2  2  1]   N/A
+ 256   heredity   [     3     ]    -952.027   1800.05142  [2  2  1]   N/A
+ 257   mutation   [     4     ]    -960.183   1800.05142  [2  2  1]   N/A
+ 258   mutation   [     3     ]    -957.325   1800.05142  [2  2  1]   N/A
+ 259   mutation   [     3     ]    -957.325   1800.05142  [2  2  1]   N/A
+ 260 softmutation [     5     ]    -967.207   1800.05142  [2  2  1]   N/A
+ 261    random    [     10    ]    -999.091   1800.05142  [2  2  1]   N/A
+ 262    random    [     7     ]    -975.690   1800.05142  [2  2  1]   N/A
+ 263    random    [     1     ]    -936.657   1800.05142  [2  2  1]   N/A
+ 264    random    [     1     ]    -936.637   1800.05142  [2  2  1]   N/A
+ 265    random    [     1     ]    -936.640   1800.05142  [2  2  1]   N/A
+ 266    random    [     3     ]    -953.211   1800.05142  [2  2  1]   N/A
+ 267    random    [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 268    random    [     7     ]    -979.597   1800.05142  [2  2  1]   N/A
+ 269    random    [     5     ]    -945.536   1800.05142  [2  2  1]   N/A
+ 270    random    [     4     ]    -960.054   1800.05142  [2  2  1]   N/A
+ 271    random    [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 272    random    [     10    ]    -995.986   1800.05142  [2  2  1]   N/A
+ 273    random    [     3     ]    -952.433   1800.05142  [2  2  1]   N/A
+ 274    random    [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 275    random    [     10    ]    -997.027   1800.05142  [2  2  1]   N/A
+ 276    random    [     5     ]    -968.685   1800.05142  [2  2  1]   N/A
+ 277    random    [     6     ]    -971.354   1800.05142  [2  2  1]   N/A
+ 278    random    [     3     ]    -949.800   1800.05142  [2  2  1]   N/A
+ 279    random    [     4     ]    -957.380   1800.05142  [2  2  1]   N/A
+ 280    random    [     5     ]    -962.819   1800.05142  [2  2  1]   N/A
+ 285   keptBest   [     3     ]    -957.325   1800.05142  [2  2  1]   N/A
+ 286   keptBest   [     6     ]    -975.505   1800.05142  [2  2  1]   N/A
+ 287   keptBest   [     5     ]    -968.100   1800.05142  [2  2  1]   N/A
+ 288   keptBest   [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 289   keptBest   [     4     ]    -959.613   1800.05142  [2  2  1]   N/A
+ 290   keptBest   [     8     ]    -987.624   1800.05142  [2  2  1]   N/A
+------------------------------------------------------------------------------------
+------------------------- Local optimization finished ------------------------------
+------------------------------------------------------------------------------------
+--------------------------  SUMMARY of Generation   6-------------------------------
+-----------------     Correlation coefficient =     NaN   -------------------
+------------------------------------------------------------------------------------
+---------------------- Proceeding to  Selection Process ----------------------------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+--------------------------------VARIATION OPERATORS---------------------------------
+------------------------------------------------------------------------------------
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.30
+    fraction of generation produced randomly           :     0.50
+    fraction of generation produced by softmuation     :     0.10
+    fraction of generation produced by Permutation     :     0.00
+    fraction of generation produced by transmutation   :     0.10
+------------------------------------------------------------------------------------
+------------------------Variation operators applied---------------------------------
+------------------------------------------------------------------------------------
+              12 structures produced by heredity     
+              20 structures produced randomly        
+               4 structures produced by softmuation  
+               0 structures produced by Permutation  
+               0 structures produced by Latmutation  
+               6 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_  7 
+----------------Proceeding to the new generation relaxation-------------------------
+       20 parallel calculations are performed simutaneously
+------------------------------------------------------------------------------------
+ 291   heredity   [     7     ]    -977.019   1800.05142  [2  2  1]   N/A
+ 292   heredity   [     4     ]    -957.102   1800.05142  [2  2  1]   N/A
+ 293   heredity   [     5     ]    -964.212   1800.05142  [2  2  1]   N/A
+ 294   heredity   [     8     ]    -985.936   1800.05142  [2  2  1]   N/A
+ 295   heredity   [     7     ]    -976.325   1800.05142  [2  2  1]   N/A
+ 296   heredity   [     5     ]    -964.752   1800.05142  [2  2  1]   N/A
+ 297   heredity   [     7     ]    -983.000   1800.05142  [2  2  1]   N/A
+ 298   heredity   [     10    ]    -970.669   1800.05142  [2  2  1]   N/A
+ 299   heredity   [     6     ]    -975.472   1800.05142  [2  2  1]   N/A
+ 300   heredity   [     3     ]    -952.035   1800.05142  [2  2  1]   N/A
+ 301   heredity   [     5     ]    -966.772   1800.05142  [2  2  1]   N/A
+ 302   heredity   [     4     ]    -960.040   1800.05142  [2  2  1]   N/A
+ 303 softmutation [     4     ]    -960.040   1800.05142  [2  2  1]   N/A
+ 304   mutation   [     3     ]    -952.034   1800.05142  [2  2  1]   N/A
+ 305 softmutation [     7     ]    -981.406   1800.05142  [2  2  1]   N/A
+ 306   mutation   [     8     ]    -987.733   1800.05142  [2  2  1]   N/A
+ 307    random    [     2     ]    -944.313   1800.05142  [2  2  1]   N/A
+ 308    random    [     10    ]    -997.225   1800.05142  [2  2  1]   N/A
+ 309    random    [     8     ]    -981.072   1800.05142  [2  2  1]   N/A
+ 310    random    [     10    ]    -999.716   1800.05142  [2  2  1]   N/A
+ 311    random    [     1     ]    -936.853   1800.05142  [2  2  1]   N/A
+ 312    random    [     10    ]    -992.720   1800.05142  [2  2  1]   N/A
+ 313    random    [     4     ]    -957.348   1800.05142  [2  2  1]   N/A
+ 314    random    [     2     ]    -948.482   1800.05142  [2  2  1]   N/A
+ 315    random    [     6     ]    -970.102   1800.05142  [2  2  1]   N/A
+ 316    random    [     1     ]    -936.853   1800.05142  [2  2  1]   N/A
+ 317    random    [     1     ]    -937.469   1800.05142  [2  2  1]   N/A
+ 318    random    [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 319    random    [     4     ]    -956.415   1800.05142  [2  2  1]   N/A
+ 320    random    [     8     ]    -986.031   1800.05142  [2  2  1]   N/A
+ 321    random    [     10    ]    -996.419   1800.05142  [2  2  1]   N/A
+ 322    random    [     4     ]    -959.366   1800.05142  [2  2  1]   N/A
+ 323    random    [     2     ]    -945.486   1800.05142  [2  2  1]   N/A
+ 324    random    [     2     ]    -944.710   1800.05142  [2  2  1]   N/A
+ 325    random    [     2     ]    -948.482   1800.05142  [2  2  1]   N/A
+ 326    random    [     2     ]    -944.640   1800.05142  [2  2  1]   N/A
+ 330   keptBest   [     6     ]    -975.505   1800.05142  [2  2  1]   N/A
+ 331   keptBest   [     5     ]    -968.685   1800.05142  [2  2  1]   N/A
+ 332   keptBest   [     7     ]    -981.393   1800.05142  [2  2  1]   N/A
+ 333   keptBest   [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 335   keptBest   [     5     ]    -968.100   1800.05142  [2  2  1]   N/A
+ 336   keptBest   [     3     ]    -957.325   1800.05142  [2  2  1]   N/A
+------------------------------------------------------------------------------------
+------------------------- Local optimization finished ------------------------------
+------------------------------------------------------------------------------------
+--------------------------  SUMMARY of Generation   7-------------------------------
+-----------------     Correlation coefficient =     NaN   -------------------
+------------------------------------------------------------------------------------
+---------------------- Proceeding to  Selection Process ----------------------------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+--------------------------------VARIATION OPERATORS---------------------------------
+------------------------------------------------------------------------------------
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.30
+    fraction of generation produced randomly           :     0.50
+    fraction of generation produced by softmuation     :     0.10
+    fraction of generation produced by Permutation     :     0.00
+    fraction of generation produced by transmutation   :     0.10
+------------------------------------------------------------------------------------
+------------------------Variation operators applied---------------------------------
+------------------------------------------------------------------------------------
+              12 structures produced by heredity     
+              20 structures produced randomly        
+               4 structures produced by softmuation  
+               0 structures produced by Permutation  
+               0 structures produced by Latmutation  
+               6 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_  8 
+----------------Proceeding to the new generation relaxation-------------------------
+       20 parallel calculations are performed simutaneously
+------------------------------------------------------------------------------------
+ 337   heredity   [     8     ]    -987.361   1800.05142  [2  2  1]   N/A
+ 338   heredity   [     9     ]    -991.490   1800.05142  [2  2  1]   N/A
+ 339   heredity   [     9     ]    -990.887   1800.05142  [2  2  1]   N/A
+ 340   heredity   [     9     ]    -990.245   1800.05142  [2  2  1]   N/A
+ 341   heredity   [     8     ]    -985.992   1800.05142  [2  2  1]   N/A
+ 342   heredity   [     5     ]    -965.083   1800.05142  [2  2  1]   N/A
+ 343   heredity   [     6     ]    -971.814   1800.05142  [2  2  1]   N/A
+ 344   heredity   [     7     ]    -975.204   1800.05142  [2  2  1]   N/A
+ 345   heredity   [     7     ]    -977.998   1800.05142  [2  2  1]   N/A
+ 346   heredity   [     8     ]    -986.389   1800.05142  [2  2  1]   N/A
+ 347   heredity   [     5     ]    -965.622   1800.05142  [2  2  1]   N/A
+ 348   heredity   [     6     ]    -970.472   1800.05142  [2  2  1]   N/A
+ 349   mutation   [     5     ]    -968.100   1800.05142  [2  2  1]   N/A
+ 350 softmutation [     5     ]    -968.685   1800.05142  [2  2  1]   N/A
+ 351 softmutation [     5     ]    -968.684   1800.05142  [2  2  1]   N/A
+ 352 softmutation [     8     ]    -987.725   1800.05142  [2  2  1]   N/A
+ 353    random    [     7     ]    -979.843   1800.05142  [2  2  1]   N/A
+ 354    random    [     4     ]    -958.070   1800.05142  [2  2  1]   N/A
+ 355    random    [     6     ]    -971.021   1800.05142  [2  2  1]   N/A
+ 356    random    [     9     ]    -987.445   1800.05142  [2  2  1]   N/A
+ 357    random    [     6     ]    -975.501   1800.05142  [2  2  1]   N/A
+ 358    random    [     2     ]    -944.637   1800.05142  [2  2  1]   N/A
+ 359    random    [     4     ]    -953.419   1800.05142  [2  2  1]   N/A
+ 360    random    [     2     ]    -944.632   1800.05142  [2  2  1]   N/A
+ 361    random    [     8     ]    -986.719   1800.05142  [2  2  1]   N/A
+ 362    random    [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 363    random    [     2     ]    -944.313   1800.05142  [2  2  1]   N/A
+ 364    random    [     5     ]    -961.697   1800.05142  [2  2  1]   N/A
+ 365    random    [     6     ]    -966.956   1800.05142  [2  2  1]   N/A
+ 366    random    [     3     ]    -948.824   1800.05142  [2  2  1]   N/A
+ 367    random    [     10    ]    -989.228   1800.05142  [2  2  1]   N/A
+ 368    random    [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 369    random    [     2     ]    -944.644   1800.05142  [2  2  1]   N/A
+ 370    random    [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 371    random    [     7     ]    -975.508   1800.05142  [2  2  1]   N/A
+ 372    random    [     5     ]    -964.856   1800.05142  [2  2  1]   N/A
+ 376   keptBest   [     3     ]    -957.325   1800.05142  [2  2  1]   N/A
+ 377   keptBest   [     6     ]    -975.505   1800.05142  [2  2  1]   N/A
+ 378   keptBest   [     5     ]    -968.685   1800.05142  [2  2  1]   N/A
+ 379   keptBest   [     5     ]    -968.100   1800.05142  [2  2  1]   N/A
+ 380   keptBest   [     1     ]    -940.653   1800.05142  [2  2  1]   N/A
+ 381   keptBest   [     7     ]    -983.000   1800.05142  [2  2  1]   N/A
+------------------------------------------------------------------------------------
+------------------------- Local optimization finished ------------------------------
+------------------------------------------------------------------------------------
+--------------------------  SUMMARY of Generation   8-------------------------------
+-----------------     Correlation coefficient =     NaN   -------------------
+------------------------------------------------------------------------------------
+---------------------- Proceeding to  Selection Process ----------------------------
+------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------
+--------------------------------VARIATION OPERATORS---------------------------------
+------------------------------------------------------------------------------------
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.30
+    fraction of generation produced randomly           :     0.50
+    fraction of generation produced by softmuation     :     0.10
+    fraction of generation produced by Permutation     :     0.00
+    fraction of generation produced by transmutation   :     0.10
+------------------------------------------------------------------------------------
+------------------------Variation operators applied---------------------------------
+------------------------------------------------------------------------------------
+              12 structures produced by heredity     
+              20 structures produced randomly        
+               4 structures produced by softmuation  
+               0 structures produced by Permutation  
+               0 structures produced by Latmutation  
+               6 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_  9 
+----------------Proceeding to the new generation relaxation-------------------------
+       20 parallel calculations are performed simutaneously
+------------------------------------------------------------------------------------

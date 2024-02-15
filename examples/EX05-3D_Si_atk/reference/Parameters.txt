@@ -1,0 +1,47 @@
+PARAMETERS EVOLUTIONARY ALGORITHM
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+USPEX : calculationMethod (USPEX, VCNEB, META)
+300   : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1     : optType (1=enthalpy, 2=volume, 3=hardness, 4=struc_order,...)
+1     : AutoFrac
+
+% atomType
+Si
+% EndAtomType
+
+% numSpecies
+8
+% EndNumSpecies
+******************************************
+*               POPULATION               *
+******************************************
+20    : populationSize (how many individuals per generation)
+25    : numGenerations (how many generations shall be calculated)
+8     : stopCrit 
+0.6   : bestFrac 
+******************************************
+*          VARIATION OPERATORS           *
+******************************************
+0.50  : fracGene (fraction of generation produced by heredity)
+0.20  : fracRand (fraction of generation produced by symmetric random)
+0.20  : fracAtomsMut (fraction of the generation produced by softmutation)
+0.10  : fracLatMut (fraction of the generation produced by latmutation)
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   *
+*****************************************
+% abinitioCode
+10 10 10 10 10 10
+% ENDabinit
+
+% KresolStart
+0.16 0.12 0.10 0.06 0.05 0.04
+% Kresolend
+
+% commandExecutable
+timeout 15m atkpython < ATK.in > ATK.out
+% EndExecutable
+
+0      : whichCluster (0: no-job-script, 1: local submission, 2: remote submission)
+0.00001: ExternalPressure

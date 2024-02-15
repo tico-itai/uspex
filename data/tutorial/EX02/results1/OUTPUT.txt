@@ -1,0 +1,65 @@
+*------------------------------------------------------------------------------*
+|                                                                              |
+|             _|    _|     _|_|_|   _|_|_|     _|_|_|_|   _|      _|           |
+|             _|    _|   _|         _|    _|   _|           _|  _|             |
+|             _|    _|     _|_|     _|_|_|     _|_|_|         _|               |
+|             _|    _|         _|   _|         _|           _|  _|             |
+|               _|_|     _|_|_|     _|         _|_|_|_|   _|      _|           |
+|                                                                              |
+|                          Version 9.4.4 (04/10/2015)                          |
+|                                                                              |
+|             Evolutionary Algorithm Code for Structure Prediction             |
+|                   more info at http://uspex.stonybrook.edu                   |
+|                                                                              |
+*------------------------------------------------------------------------------*
+*------------------------------------------------------------------------------*
+|                  Please cite the following suggested papers                  |
+|               when you publish the results obtained from USPEX:              |
+*------------------------------------------------------------------------------*
+*------------------------------------------------------------------------------*
+|  Oganov A.R., Glass C.W. (2006). Crystal structure prediction                |
+|  using ab initio evolutionary techniques: Principles and applications.       |
+|  J. Chem. Phys. 124, 244704                                                  |
+|                                                                              |
+|  Oganov A.R., Stokes H., Valle M. (2011)                                     |
+|  How evolutionary crystal structure prediction works - and why.              |
+|  Acc. Chem. Res. 44, 227-237                                                 |
+|                                                                              |
+|  Lyakhov A.O., Oganov A.R., Stokes H., Zhu Q. (2013)                         |
+|  New developments in evolutionary structure prediction algorithm USPEX.      |
+|  Comp. Phys. Comm., 184, 1172-1182                                           |
+*------------------------------------------------------------------------------*
+
+            Job Starts at                 14-Feb-2024 13:28:49
+                          Block for system description                          
+                        Dimensionality  :   3
+                        Molecular       :   0 (1:Yes, 0,No)
+                   Variable Composition :   0 (1:Yes, 0,No)
+                          Block for atomic description                          
+    There are 3 types of atoms in the system:    Mg   Al    O
+    Minimum distances:                    Mg: 0.90  0.88  0.80  
+    Minimum distances:                    Al: 0.88  0.87  0.79  
+    Minimum distances:                     O: 0.80  0.79  0.71  
+
+           Good Bonds:                    Mg: 0.10  0.14  0.17  
+           Good Bonds:                    Al: 0.14  0.20  0.24  
+           Good Bonds:                     O: 0.17  0.24  0.30  
+
+            valences                        : 2.00  3.00  2.00  
+    The investigated system is: Mg_ 4  Al_ 8   O_16  
+                        Block for evolutionary algorithm                        
+                 Number of Generations  :      60
+               Initial Population Size  :      40
+               General Population Size  :      40
+                             AB INITIO CALCULATIONS                             
+*  External Pressure is : 100.0000  GPa*
+     Estimated Volume : 217.560  A^3
+
+*  There are  1 local relaxation steps for each individual structure  *
+Step  Abinitio Code                  Execute Command            K-resolution 
+  1     PWSCF                      pw.x < qe.in > output         0.200
+
+The calculations are performed in nonParallel mode on the local machine
+   1 parallel calculations are performed simutaneously
+
+  ID   Origin     Composition  Enthalpy(eV)  Volume(A^3)  KPOINTS  SYMMETRY

@@ -1,0 +1,67 @@
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+VCNEB : calculationMethod
+
+% numSpecies
+4
+% EndNumSpecies
+
+% atomType
+Ar
+% EndAtomType
+
+0.00   : ExternalPressure 
+******************************************
+*        VCNEB options                   *
+******************************************
+111   : vcnebType   
+15    : numImages  
+20   : numSteps   
+1     : optimizerType 
+2     : optReadImages  
+3     : optRelaxType  
+0.1   : dt           
+0.005 : ConvThreshold  
+************************
+*       NEB options    *
+************************
+0.3   : VarPathLength 
+2     : K_min       
+2     : K_max      
+5     : Kconstant  
+0     : optFreezing 
+0     : optMethodCIDI 
+*****************************************
+*               OUTPUT                  *
+*****************************************
+1     : FormatType  (1: XCRYSDEN format; 2: VASP POSCAR 3: XYZ format DEFAULT: 2) 
+10    : PrintStep   (How many VCNEB steps the .mat files are saved,    default: 5)
+*****************************************
+*               RESTART                 *
+*****************************************
+0     : pickUpYN     
+0     : pickUpGen    
+1     : pickUpFolder 
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   * 
+*****************************************
+abinitioCode 
+3
+ENDabinit
+
+% commandExecutable
+gulp < input > output
+% EndExecutable
+1     : numParallelCalcs 
+1     : numProcessors
+
+111   : vcnebType   
+15    : numImages  
+20   : numSteps   
+1     : optimizerType 
+2     : optReadImages  
+3     : optRelaxType  
+
+0.1   : dt           
+0.005 : ConvThreshold  

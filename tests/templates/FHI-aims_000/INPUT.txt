@@ -1,0 +1,50 @@
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+USPEX : calculationMethod (USPEX, VCNEB, META)
+000   : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1     : optType (optimise by: 1=enthalpy, 2=volume, 3=hardness,...)
+1     : AutoFrac
+
+% atomType
+B
+% EndAtomType
+
+% numSpecies
+4
+% EndNumSpecies
+******************************************
+*               POPULATION               *
+******************************************
+3     : populationSize 
+3     : initialPopSize 
+2     : numGenerations 
+2     : stopCrit 
+******************************************
+*          VARIATION OPERATORS           *
+******************************************
+0.50  : fracGene 
+0.20  : fracRand 
+0.30  : fracAtomsMut 
+****************************************
+*             CONSTRAINTS              *
+****************************************
+% IonDistances
+1.0
+% EndDistances
+
+% Latticevalues 
+40
+% Endvalues 
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   * 
+*****************************************
+abinitioCode 
+9 9 9
+ENDabinit
+
+0    : whichCluster 
+
+% commandExecutable
+timeout 60 aims.x > FHI_output
+% EndExecutable

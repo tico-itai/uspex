@@ -1,0 +1,38 @@
+Species
+C_3 core C_3
+H_1 core H_
+F_1 core F_
+
+connect    1    2   single  0 0 0    
+connect    1    2   single -1 0 0    
+connect    1    3   single  0 0 0
+connect    1    4   single  0 0 0
+connect    2    5   single  0 0 0
+connect    2    6   single  0 0 0
+
+connect    7    8   single  0 0 0
+connect    7    8   single -1 0 0
+connect    7    9   single  0 0 0
+connect    7   10   single  0 0 0
+connect    8   11   single  0 0 0
+connect    8   12   single  0 0 0
+
+connect   13   14   single  0 0 0
+connect   13   14   single -1 0 0
+connect   13   15   single  0 0 0
+connect   13   16   single  0 0 0
+connect   14   17   single  0 0 0
+connect   14   18   single  0 0 0
+
+connect   19   20   single  0 0 0
+connect   19   20   single -1 0 0
+connect   19   21   single  0 0 0
+connect   19   22   single  0 0 0
+connect   20   23   single  0 0 0
+connect   20   24   single  0 0 0
+
+space
+1
+maxcyc 200
+library ./dreiding.lib
+

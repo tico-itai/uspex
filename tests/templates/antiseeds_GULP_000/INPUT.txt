@@ -1,0 +1,70 @@
+PARAMETERS EVOLUTIONARY ALGORITHM
+
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+USPEX  : calculationMethod (USPEX, VCNEB, META)
+000    : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1      : optType (1=enthalpy, 2=volume, 3=hardness, 4=struc_order,...)
+
+% vacuumSize (only used in cluster surface)
+40 40 40 
+% endVacuumSize
+
+% numSpecies
+38
+% EndNumSpecies
+
+% atomType
+Mo
+% EndAtomType
+******************************************
+*               POPULATION               *
+******************************************
+5     : populationSize 
+5     : initialPopSize 
+3     : numGenerations 
+0     : reoptOld 
+0.70  : bestFrac 
+******************************************
+*          VARIATION OPERATORS           *
+******************************************
+0.30  : fracRand 
+0.50  : fracGene 
+0.20  : fracAtomsMut
+****************************************
+*             CONSTRAINTS              *
+****************************************
+7.0   : minVectorLength 
+2.0   :  constraint_enhancement 
+%%%%%%%%%%%%%%%%
+% IonDistances
+1.00
+% EndDistances
+%%%%%%%%%%%%%%%%
+
+*****************************************
+*                 CELL                  *
+*****************************************
+% Latticevalues (this word MUST stay here, type values below)
+800.0
+% Endvalues (this word MUST stay here)
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   * 
+*****************************************
+abinitioCode (which code shall be used for calculation? Up to now: vasp, siesta, gulp)
+3 3 3 
+ENDabinit
+
+% commandExecutable
+timeout 60 gulp < input > output
+% EndExecutable
+******************************************
+%         FINGERPRINTS SETTINGS          *
+******************************************
+15.0   : RmaxFing
+0.001  : toleranceFing 
+0.020  : toleranceBestHM
+0.010  : antiSeedsMax  
+0.005  : antiSeedsSigma
+1      : antiSeedsActivation 

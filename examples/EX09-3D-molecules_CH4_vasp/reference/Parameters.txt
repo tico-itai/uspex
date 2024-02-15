@@ -1,0 +1,60 @@
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+USPEX : calculationMethod (USPEX, VCNEB, META)
+310   : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1     : optType (optimise by: 1=enthalpy, 2=volume, 3=hardness,...)
+1     : AutoFrac
+
+% atomType
+C H
+% EndAtomType
+
+% numSpecies
+4
+% EndNumSpecies
+******************************************
+*               POPULATION               *
+******************************************
+20    : populationSize 
+30    : numGenerations 
+6     : stopCrit 
+1     : reoptOld 
+******************************************
+*          VARIATION OPERATORS           *
+******************************************
+0.50  : fracGene 
+0.20  : fracRand 
+0.10  : fracAtomsMut 
+0.20  : fracRotMut 
+0.00  : fracPerm  
+0.00  : fracLatMut
+****************************************
+*             CONSTRAINTS              *
+****************************************
+% IonDistances
+2.0 1.2
+0.0 0.7
+% EndDistances
+
+% MolCenters
+2.8
+% EndMol 
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   * 
+*****************************************
+% abinitioCode 
+1 1 1 1 1
+% ENDabinit
+
+% KresolStart
+0.16 0.14 0.12 0.10 0.09
+%  Kresolend
+
+% commandExecutable
+mpirun -np 4 vasp > out
+% EndExecutable
+
+20    : numParallelCalcs 
+QSH   : whichCluster 
+20.0  : ExternalPressure

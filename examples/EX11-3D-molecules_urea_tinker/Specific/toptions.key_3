@@ -1,0 +1,11 @@
+parameters        ./oplsaa.prm
+verbose
+ewald
+ewald-cutoff       20.0
+vdw-cutoff         12.0
+STEPMIN            10.0
+tau-temperature    1.0
+MAXITER            200
+#polar-eps         0.01
+#cutoff            12.0
+#dielectric        1.0

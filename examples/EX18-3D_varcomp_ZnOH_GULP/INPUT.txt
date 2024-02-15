@@ -1,0 +1,46 @@
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+USPEX : calculationMethod (USPEX, VCNEB, META)
+301   : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1     : optType (1=enthalpy, 2=volume, 3=hardness, 4=struc_order,...) 
+1     : AutoFrac
+
+% atomType
+Zn O H
+% EndAtomType
+
+% numSpecies
+1 0 0
+0 1 0
+0 0 1
+% EndNumSpecies
+******************************************
+*               POPULATION               *
+******************************************
+150   : populationSize 
+150   : initialPopSize 
+60    : numGenerations 
+8     : minAt 
+16    : maxAt 
+******************************************
+*          VARIATION OPERATORS           *
+******************************************
+0.40  : fracGene 
+0.20  : fracRand 
+0.20  : fracAtomsMut 
+0.20  : fracTrans 
+0.00  : fracLatMut
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   * 
+*****************************************
+% abinitioCode 
+3 3 3 3 3 
+% ENDabinit
+
+% commandExecutable
+bash run_gulp.sh &
+% EndExecutable
+
+0     : whichCluster 
+8     : numParallelCalcs 

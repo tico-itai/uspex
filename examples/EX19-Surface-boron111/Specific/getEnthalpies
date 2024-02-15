@@ -1,0 +1,9 @@
+#!/usr/bin/perl
+
+$rec = 'enthalpy';
+
+while(<>) {
+       $printit = 0;
+	$printit=1 if( /$rec/ );
+	print if($printit);
+}

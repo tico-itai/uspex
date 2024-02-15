@@ -1,0 +1,6 @@
+Castep has two versions:
+1. Academic version (tested by Zamaan Raza)
+2. Materials Studio CASTEP version 5.5 for Linux (tested by Xiao Dong)
+
+These versions have slightly different formats. Please refer the two folders for
+the input settings according to your own environment.

@@ -1,0 +1,57 @@
+PARAMETERS EVOLUTIONARY ALGORITHM
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+USPEX : calculationMethod (USPEX, VCNEB, META)
+310   : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1     : optType (optimise by: 1=enthalpy, 2=volume, 3=hardness,...)
+1     : AutoFrac
+
+% numSpecies
+2
+% EndNumSpecies
+
+% atomType
+C O N H
+% EndAtomType
+******************************************
+*               POPULATION               *
+******************************************
+4    : populationSize 
+4    : initialPopSize 
+3    : numGenerations 
+3    : stopCrit 
+******************************************
+*          VARIATION OPERATORS           *
+******************************************
+0.50  : fracGene 
+0.30  : fracRand 
+0.10  : fracAtomsMut 
+0.10  : fracRotMut 
+0.00  : fracLatMut
+****************************************
+*             CONSTRAINTS              *
+****************************************
+% IonDistances
+2.0 2.0 2.0 1.5
+0.0 2.0 2.0 1.5
+0.0 0.0 2.0 1.5
+0.0 0.0 0.0 1.2
+% EndDistances
+
+% MolCenters
+4.0
+% EndMol
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   * 
+*****************************************
+% abinitioCode 
+12 12 12
+% ENDabinit
+
+% commandExecutable
+./tinker.sh 
+% EndExecutable
+
+1     : numParallelCalcs 
+0     : whichCluster

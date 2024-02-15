@@ -1,0 +1,49 @@
+PARAMETERS EVOLUTIONARY ALGORITHM
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+USPEX : calculationMethod (USPEX, VCNEB, META)
+300   : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1108  : optType (1=enthalpy, 2=volume, 3=hardness, 1108=Debye_temp)
+1     : AutoFrac
+
+% atomType
+C
+% EndAtomType
+
+% numSpecies
+8
+% EndNumSpecies
+******************************************
+*               POPULATION               *
+******************************************
+20    : populationSize 
+30    : numGenerations 
+8     : stopCrit 
+0.6   : bestFrac 
+******************************************
+*          VARIATION OPERATORS           *
+******************************************
+0.50  : fracGene 
+0.20  : fracRand 
+0.20  : fracAtomsMut 
+0.10  : fracLatMut 
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   * 
+*****************************************
+% abinitioCode
+1 1 1 1 1
+% ENDabinit
+
+% KresolStart
+0.16 0.13 0.10 0.06 0.06
+% Kresolend
+
+% commandExecutable
+mpirun -np 4 vasp > log
+% EndExecutable
+
+10    : numParallelCalcs 
+QSH   : whichCluster
+
+0.00001: ExternalPressure

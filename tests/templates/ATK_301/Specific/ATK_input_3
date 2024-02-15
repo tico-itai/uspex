@@ -1,0 +1,33 @@
+# setup slater-koster calculator with dftb parameters
+
+basis_set       = DFTBDirectory(os.path.abspath(os.path.dirname(sys.executable) + '/../share/tightbinding/cp2k/nonscc'))
+pair_potentials = basis_set
+
+numerical_accuracy_parameters = NumericalAccuracyParameters(
+    k_point_sampling=(8, 8, 1), 
+)
+
+calculator = SlaterKosterCalculator(
+    basis_set=basis_set,
+    pair_potentials=pair_potentials,
+    numerical_accuracy_parameters=numerical_accuracy_parameters,
+    )
+bulk_configuration.setCalculator(calculator)
+bulk_configuration = OptimizeGeometry(
+        bulk_configuration,
+        max_forces=0.05*eV/Ang,
+        max_steps=50,
+        max_stress=0.1*eV/Ang**3,
+        disable_stress=False,
+        trajectory_filename=None,
+        )
+
+
+# -------------------------------------------------------------
+# Total energy
+# -------------------------------------------------------------
+total_energy = TotalEnergy(bulk_configuration)
+nlprint(total_energy)
+nlprint(bulk_configuration)
+#stress=Stress(bulk_configuration)
+#nlprint(stress)

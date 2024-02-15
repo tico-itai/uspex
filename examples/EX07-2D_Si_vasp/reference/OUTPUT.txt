@@ -1,0 +1,731 @@
+*------------------------------------------------------------------------------*
+|                                                                              |
+|             _|    _|     _|_|_|   _|_|_|     _|_|_|_|   _|      _|           |
+|             _|    _|   _|         _|    _|   _|           _|  _|             |
+|             _|    _|     _|_|     _|_|_|     _|_|_|         _|               |
+|             _|    _|         _|   _|         _|           _|  _|             |
+|               _|_|     _|_|_|     _|         _|_|_|_|   _|      _|           |
+|                                                                              |
+|                          Version 9.4.4 (18/09/2015)                          |
+|                                                                              |
+|             Evolutionary Algorithm Code for Structure Prediction             |
+|                   more info at http://uspex.stonybrook.edu                   |
+|                                                                              |
+*------------------------------------------------------------------------------*
+*------------------------------------------------------------------------------*
+|                  Please cite the following suggested papers                  |
+|               when you publish the results obtained from USPEX:              |
+*------------------------------------------------------------------------------*
+*------------------------------------------------------------------------------*
+|  Oganov A.R., Glass C.W. (2006). Crystal structure prediction                |
+|  using ab initio evolutionary techniques: Principles and applications.       |
+|  J. Chem. Phys. 124, 244704                                                  |
+|                                                                              |
+|  Oganov A.R., Stokes H., Valle M. (2011)                                     |
+|  How evolutionary crystal structure prediction works - and why.              |
+|  Acc. Chem. Res. 44, 227-237                                                 |
+|                                                                              |
+|  Lyakhov A.O., Oganov A.R., Stokes H., Zhu Q. (2013)                         |
+|  New developments in evolutionary structure prediction algorithm USPEX.      |
+|  Comp. Phys. Comm., 184, 1172-1182                                           |
+*------------------------------------------------------------------------------*
+
+                                   2D-crystals                                  
+*------------------------------------------------------------------------------*
+|  Zhou X.-F., Dong X., Oganov A.R., Zhu Q.,                                   |
+|  Tian Y., Wang H.-T. (2014)                                                  |
+|  Semimetallic Two-Dimensional Boron Allotrope                                |
+|  with Massless Dirac Fermions.                                               |
+|  Phys. Rev. Lett. 112, 085502                                                |
+*------------------------------------------------------------------------------*
+            Job Starts at                 18-Sep-2015 13:10:29
+                          Block for system description                          
+                        Dimensionality  :  -2
+                        Molecular       :   0 (1:Yes, 0,No)
+                   Variable Composition :   0 (1:Yes, 0,No)
+                          Block for atomic description                          
+    There are 1 types of atoms in the system:    Si
+    Minimum distances:                    Si: 0.98  
+
+           Good Bonds:                    Si: 0.30  
+
+            valences                        : 4.00  
+    The investigated system is: Si_ 8  
+                        Block for evolutionary algorithm                        
+                 Number of Generations  :      40
+               Initial Population Size  :      20
+               General Population Size  :      20
+                             AB INITIO CALCULATIONS                             
+*  External Pressure is : 0.0000  GPa*
+     Estimated Volume : 118.800  A^3
+
+*  There are  5 local relaxation steps for each individual structure  *
+Step  Abinitio Code    K-resolution 
+  1      VASP              0.120
+  2      VASP              0.100
+  3      VASP              0.080
+  4      VASP              0.060
+  5      VASP              0.050
+
+The calculations are performed in Parallel mode on QSH supercomputer
+  10 parallel calculations are performed simutaneously
+
+  ID   Origin     Composition  Enthalpy(eV)  Volume(A^3)  KPOINTS  SYMMETRY
+   1   Random    [      8    ]    -38.140    410.849   [ 4  4  1]   75
+   2   Random    [      8    ]    -38.952    370.691   [ 3  6  1]   28
+   3   Random    [      8    ]    -36.287    516.085   [ 4  4  1]  175
+   4   Random    [      8    ]    -35.943    653.143   [ 3  3  1]  123
+   5   Random    [      8    ]    -35.943    653.141   [ 3  3  1]  123
+   6   Random    [      8    ]    -39.456    424.086   [ 4  4  1]    2
+   7   Random    [      8    ]    -37.675    357.071   [ 5  4  1]    3
+   8   Random    [      8    ]    -38.106    440.938   [ 4  4  1]    7
+   9   Random    [      8    ]    -39.413    367.359   [ 6  3  1]    1
+  10   Random    [      8    ]    -38.614    378.970   [ 4  4  1]   28
+  11   Random    [      8    ]    -38.143    421.302   [ 4  4  1]   99
+  12   Random    [      8    ]    -39.927    391.176   [ 4  5  1]   67
+  13   Random    [      8    ]    -38.766    426.133   [ 4  4  1]   13
+  14   Random    [      8    ]    -37.982    430.633   [ 4  4  1]   12
+  15   Random    [      8    ]    -39.306    382.883   [ 4  5  1]   12
+  16   Random    [      8    ]    -38.471    364.929   [ 5  4  1]    3
+  17   Random    [      8    ]    -39.263    349.024   [ 4  5  1]   12
+  18   Random    [      8    ]    -38.182    343.018   [ 5  5  1]    8
+  19   Random    [      8    ]    -37.723    429.691   [ 4  5  1]   10
+  20   Random    [      8    ]    -36.806    673.855   [ 4  3  1]    1
+                           Local optimization finished                          
+
+                             SUMMARY of Generation 1                            
+                        Correlation coefficient = 0.2296                        
+                             Quasi entropy = 0.2737                             
+                         Proceeding to Selection Process                        
+
+                               VARIATION OPERATORS                              
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.50
+    fraction of generation produced by random          :     0.30
+    fraction of generation produced by softmutation    :     0.20
+    fraction of generation produced by permutation     :     0.00
+    fraction of generation produced by latmutation     :     0.00
+    fraction of generation produced by rotmutation     :     0.00
+    fraction of generation produced by transmutation   :     0.00
+                           Variation operators applied                          
+              10 structures produced by heredity     
+               6 structures produced by random       
+               4 structures produced by softmutation 
+               0 structures produced by permutation  
+               0 structures produced by latmutation  
+               3 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_  2 
+                   Proceeding to the new generation relaxation                  
+       10 parallel calculations are performed simutaneously
+                                  Generation 2                                  
+  ID   Origin      Composition  Enthalpy(eV)  Volume(A^3)  KPOINTS  SYMMETRY
+  21 Heredity    [      8    ]    -38.928    420.003   [ 5  4  1]    2
+  22 Heredity    [      8    ]    -38.614    377.853   [ 4  4  1]   10
+  23 Heredity    [      8    ]    -38.642    336.952   [ 4  5  1]    1
+  24 Heredity    [      8    ]    -37.854    324.491   [ 5  5  1]    1
+  25 Heredity    [      8    ]    -38.408    367.821   [ 4  5  1]    1
+  26 Heredity    [      8    ]    -38.297    379.629   [ 4  4  1]    6
+  27 Heredity    [      8    ]    -39.617    352.490   [ 4  6  1]    1
+  28 Heredity    [      8    ]    -39.101    559.273   [ 3  4  1]    2
+  29 Heredity    [      8    ]    -39.348    410.658   [ 4  5  1]   11
+  30 Heredity    [      8    ]    -37.834    443.162   [ 4  5  1]    3
+  31   Random    [      8    ]    -36.617    594.651   [ 4  4  1]    1
+  32   Random    [      8    ]    -38.472    364.943   [ 4  5  1]   35
+  33   Random    [      8    ]    -38.719    385.665   [ 6  3  1]   32
+  34   Random    [      8    ]    -38.214    391.782   [ 3  6  1]   25
+  35   Random    [      8    ]    -38.534    389.553   [ 4  5  1]   35
+  36   Random    [      8    ]    -38.068    431.919   [ 4  4  1]  162
+  37 softmutate  [      8    ]    -38.627    384.103   [ 4  4  1]    3
+  38 softmutate  [      8    ]    -38.130    354.917   [ 4  4  1]   12
+  39 softmutate  [      8    ]    -39.247    376.985   [ 4  5  1]   12
+  40 keptBest    [      8    ]    -39.927    391.176   [ 4  5  1]   67
+  41 keptBest    [      8    ]    -39.306    382.883   [ 4  5  1]   12
+  42 keptBest    [      8    ]    -38.952    370.691   [ 3  6  1]   28
+  43 softmutate  [      8    ]    -39.156    353.707   [ 4  5  1]    1
+                           Local optimization finished                          
+
+                             SUMMARY of Generation 2                            
+                        Correlation coefficient = -0.0938                       
+                             Quasi entropy = 0.2623                             
+                         Proceeding to Selection Process                        
+
+                               VARIATION OPERATORS                              
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.50
+    fraction of generation produced by random          :     0.28
+    fraction of generation produced by softmutation    :     0.22
+    fraction of generation produced by permutation     :     0.00
+    fraction of generation produced by latmutation     :     0.00
+    fraction of generation produced by rotmutation     :     0.00
+    fraction of generation produced by transmutation   :     0.00
+                           Variation operators applied                          
+              10 structures produced by heredity     
+               6 structures produced by random       
+               4 structures produced by softmutation 
+               0 structures produced by permutation  
+               0 structures produced by latmutation  
+               3 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_  3 
+                   Proceeding to the new generation relaxation                  
+       10 parallel calculations are performed simutaneously
+                                  Generation 3                                  
+  ID   Origin      Composition  Enthalpy(eV)  Volume(A^3)  KPOINTS  SYMMETRY
+  44 Heredity    [      8    ]    -39.316    403.097   [ 3  5  1]   10
+  45 Heredity    [      8    ]    -39.747    393.014   [ 3  6  1]    1
+  46 Heredity    [      8    ]    -38.461    350.170   [ 4  5  1]    1
+  47 Heredity    [      8    ]    -38.684    336.386   [ 4  5  1]    1
+  48 Heredity    [      8    ]    -39.049    351.109   [ 4  5  1]    6
+  49 Heredity    [      8    ]    -39.261    368.041   [ 5  4  1]   51
+  50 Heredity    [      8    ]    -38.503    357.097   [ 4  5  1]    1
+  51 Heredity    [      8    ]    -39.858    405.117   [ 3  6  1]    2
+  52 Heredity    [      8    ]    -37.951    451.227   [ 3  5  1]    6
+  53   Random    [      8    ]    -36.614    578.581   [ 4  4  1]  183
+  54 keptBest    [      8    ]    -39.927    391.176   [ 4  5  1]   67
+  55   Random    [      8    ]    -37.697    448.058   [ 4  4  1]   85
+  56   Random    [      8    ]    -37.467    392.900   [ 5  4  1]   28
+  57   Random    [      8    ]    -38.540    355.889   [ 5  4  1]  123
+  58 softmutate  [      8    ]    -38.951    384.665   [ 3  6  1]   28
+  59 softmutate  [      8    ]    -38.162    339.980   [ 4  5  1]    1
+  60 keptBest    [      8    ]    -39.617    352.490   [ 4  6  1]    1
+  61 softmutate  [      8    ]    -39.928    390.210   [ 4  5  1]   67
+  62 keptBest    [      8    ]    -38.952    370.691   [ 3  6  1]   28
+  63   Random    [      8    ]    -38.254    430.873   [ 4  5  1]    7
+  64 softmutate  [      8    ]    -39.731    411.835   [ 5  3  1]  191
+                           Local optimization finished                          
+
+                             SUMMARY of Generation 3                            
+                        Correlation coefficient = -0.2195                       
+                             Quasi entropy = 0.2624                             
+                         Proceeding to Selection Process                        
+
+                               VARIATION OPERATORS                              
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.40
+    fraction of generation produced by random          :     0.38
+    fraction of generation produced by softmutation    :     0.22
+    fraction of generation produced by permutation     :     0.00
+    fraction of generation produced by latmutation     :     0.00
+    fraction of generation produced by rotmutation     :     0.00
+    fraction of generation produced by transmutation   :     0.00
+                           Variation operators applied                          
+               8 structures produced by heredity     
+               8 structures produced by random       
+               4 structures produced by softmutation 
+               0 structures produced by permutation  
+               0 structures produced by latmutation  
+               3 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_  4 
+                   Proceeding to the new generation relaxation                  
+       10 parallel calculations are performed simutaneously
+                                  Generation 4                                  
+  ID   Origin      Composition  Enthalpy(eV)  Volume(A^3)  KPOINTS  SYMMETRY
+  65 Heredity    [      8    ]    -39.652    321.289   [ 5  5  1]   59
+  66 Heredity    [      8    ]    -38.487    284.466   [ 4  6  1]    1
+  67 Heredity    [      8    ]    -38.551    396.062   [ 3  5  1]    7
+  68 Heredity    [      8    ]    -39.748    329.540   [ 4  5  1]   12
+  69 Heredity    [      8    ]    -38.585    319.352   [ 6  4  1]    1
+  70 Heredity    [      8    ]    -39.380    433.919   [ 4  5  1]    2
+  71 Heredity    [      8    ]    -39.113    391.834   [ 4  5  1]   12
+  72 Heredity    [      8    ]    -39.750    365.308   [ 3  6  1]    3
+  73   Random    [      8    ]    -39.026    331.992   [ 4  5  1]   51
+  74   Random    [      8    ]    -36.828    721.577   [ 3  4  1]    1
+  75   Random    [      8    ]    -38.517    372.669   [ 4  4  1]   51
+  76   Random    [      8    ]    -37.919    340.276   [ 8  3  1]   54
+  77   Random    [      8    ]    -37.831    445.043   [ 4  4  1]    1
+  78   Random    [      8    ]    -35.943    653.142   [ 3  3  1]  123
+  79   Random    [      8    ]    -37.832    448.460   [ 4  4  1]    1
+  80 softmutate  [      8    ]    -39.730    408.258   [ 3  5  1]  191
+  81 softmutate  [      8    ]    -40.088    358.160   [ 4  6  1]   10
+  82 softmutate  [      8    ]    -40.088    356.651   [ 4  6  1]   10
+  83 keptBest    [      8    ]    -39.928    390.210   [ 4  5  1]   67
+  84 keptBest    [      8    ]    -39.747    393.014   [ 3  6  1]    1
+  85 keptBest    [      8    ]    -39.049    351.109   [ 4  5  1]    6
+  86 softmutate  [      8    ]    -38.836    317.866   [ 4  6  1]    2
+  87   Random    [      8    ]    -36.823    435.706   [ 4  6  1]    7
+                           Local optimization finished                          
+
+                             SUMMARY of Generation 4                            
+                        Correlation coefficient = 0.0086                        
+                             Quasi entropy = 0.2497                             
+                         Proceeding to Selection Process                        
+
+                               VARIATION OPERATORS                              
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.40
+    fraction of generation produced by random          :     0.38
+    fraction of generation produced by softmutation    :     0.22
+    fraction of generation produced by permutation     :     0.00
+    fraction of generation produced by latmutation     :     0.00
+    fraction of generation produced by rotmutation     :     0.00
+    fraction of generation produced by transmutation   :     0.00
+                           Variation operators applied                          
+               8 structures produced by heredity     
+               8 structures produced by random       
+               4 structures produced by softmutation 
+               0 structures produced by permutation  
+               0 structures produced by latmutation  
+               3 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_  5 
+                   Proceeding to the new generation relaxation                  
+       10 parallel calculations are performed simutaneously
+                                  Generation 5                                  
+  ID   Origin      Composition  Enthalpy(eV)  Volume(A^3)  KPOINTS  SYMMETRY
+  88 Heredity    [      8    ]    -39.112    396.236   [ 4  5  1]   12
+  89 Heredity    [      8    ]    -39.384    376.865   [ 3  6  1]    2
+  90 Heredity    [      8    ]    -39.756    368.162   [ 3  6  1]   25
+  91 Heredity    [      8    ]    -38.984    317.648   [ 4  5  1]    1
+  92 Heredity    [      8    ]    -39.314    377.562   [ 4  5  1]    6
+  93 Heredity    [      8    ]    -40.087    358.952   [ 4  6  1]   10
+  94 Heredity    [      8    ]    -38.698    304.367   [ 4  6  1]    1
+  95 Heredity    [      8    ]    -38.971    294.730   [ 4  6  1]    1
+  96   Random    [      8    ]    -39.334    565.274   [ 4  3  1]   10
+  97   Random    [      8    ]    -36.660    608.669   [ 4  4  1]  183
+  98   Random    [      8    ]    -38.244    528.520   [ 4  4  1]   35
+  99   Random    [      8    ]    -38.540    355.929   [ 5  4  1]  123
+ 100   Random    [      8    ]    -36.211    637.817   [ 2  6  1]   28
+ 101   Random    [      8    ]    -38.129    349.427   [ 4  4  1]   12
+ 102   Random    [      8    ]    -38.857    354.316   [ 5  5  1]  129
+ 103 softmutate  [      8    ]    -38.970    299.023   [ 6  4  1]    1
+ 104 softmutate  [      8    ]    -39.928    390.213   [ 4  5  1]   67
+ 105 keptBest    [      8    ]    -40.088    356.651   [ 4  6  1]   10
+ 106 keptBest    [      8    ]    -39.113    391.834   [ 4  5  1]   12
+ 107 keptBest    [      8    ]    -38.585    319.352   [ 6  4  1]    1
+ 108   Random    [      8    ]    -37.351    630.595   [ 3  4  1]    1
+ 109 softmutate  [      8    ]    -39.902    369.547   [ 3  5  1]   10
+ 110 softmutate  [      8    ]    -40.071    405.640   [ 3  5  1]   10
+                           Local optimization finished                          
+
+                             SUMMARY of Generation 5                            
+                        Correlation coefficient = -0.2280                       
+                             Quasi entropy = 0.2407                             
+                         Proceeding to Selection Process                        
+
+                               VARIATION OPERATORS                              
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.36
+    fraction of generation produced by random          :     0.47
+    fraction of generation produced by softmutation    :     0.18
+    fraction of generation produced by permutation     :     0.00
+    fraction of generation produced by latmutation     :     0.00
+    fraction of generation produced by rotmutation     :     0.00
+    fraction of generation produced by transmutation   :     0.00
+                           Variation operators applied                          
+               7 structures produced by heredity     
+               9 structures produced by random       
+               4 structures produced by softmutation 
+               0 structures produced by permutation  
+               0 structures produced by latmutation  
+               3 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_  6 
+                   Proceeding to the new generation relaxation                  
+       10 parallel calculations are performed simutaneously
+                                  Generation 6                                  
+  ID   Origin      Composition  Enthalpy(eV)  Volume(A^3)  KPOINTS  SYMMETRY
+ 111 Heredity    [      8    ]    -39.200    328.694   [ 4  6  1]    1
+ 112 Heredity    [      8    ]    -39.350    373.364   [ 3  6  1]    2
+ 113 Heredity    [      8    ]    -39.651    309.733   [ 5  5  1]   11
+ 114   Random    [      8    ]    -36.614    578.563   [ 4  4  1]  183
+ 115   Random    [      8    ]    -37.407    499.953   [ 5  3  1]   25
+ 116 Heredity    [      8    ]    -36.123    327.624   [ 5  5  1]    1
+ 117 Heredity    [      8    ]    -39.847    304.066   [ 4  6  1]    2
+ 118 Heredity    [      8    ]    -39.017    336.873   [ 4  5  1]    1
+ 119 Heredity    [      8    ]    -38.948    365.008   [ 4  5  1]    1
+ 120   Random    [      8    ]    -37.369    404.539   [ 5  5  1]    1
+ 121   Random    [      8    ]    -39.103    504.889   [ 3  4  1]   14
+ 122   Random    [      8    ]    -39.927    390.315   [ 5  4  1]   67
+ 123   Random    [      8    ]    -38.120    360.087   [ 4  4  1]   99
+ 124   Random    [      8    ]    -38.249    321.210   [ 4  6  1]   13
+ 125 softmutate  [      8    ]    -40.087    359.143   [ 4  6  1]   10
+ 126   Random    [      8    ]    -37.256    493.703   [ 4  4  1]    3
+ 127 softmutate  [      8    ]    -38.603    342.907   [ 4  5  1]    1
+ 128 keptBest    [      8    ]    -40.088    356.651   [ 4  6  1]   10
+ 129 softmutate  [      8    ]    -37.963    512.350   [ 3  4  1]    1
+ 130 keptBest    [      8    ]    -39.113    391.834   [ 4  5  1]   12
+ 131 keptBest    [      8    ]    -38.984    317.648   [ 4  5  1]    1
+ 132   Random    [      8    ]    -37.782    430.023   [ 4  4  1]   10
+ 133 softmutate  [      8    ]    -39.650    321.451   [ 5  5  1]   59
+                           Local optimization finished                          
+
+                             SUMMARY of Generation 6                            
+                        Correlation coefficient = 0.0047                        
+                             Quasi entropy = 0.2682                             
+                         Proceeding to Selection Process                        
+
+                               VARIATION OPERATORS                              
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.43
+    fraction of generation produced by random          :     0.31
+    fraction of generation produced by softmutation    :     0.25
+    fraction of generation produced by permutation     :     0.00
+    fraction of generation produced by latmutation     :     0.00
+    fraction of generation produced by rotmutation     :     0.00
+    fraction of generation produced by transmutation   :     0.00
+                           Variation operators applied                          
+               9 structures produced by heredity     
+               6 structures produced by random       
+               5 structures produced by softmutation 
+               0 structures produced by permutation  
+               0 structures produced by latmutation  
+               3 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_  7 
+                   Proceeding to the new generation relaxation                  
+       10 parallel calculations are performed simutaneously
+                                  Generation 7                                  
+  ID   Origin      Composition  Enthalpy(eV)  Volume(A^3)  KPOINTS  SYMMETRY
+ 134 Heredity    [      8    ]    -39.651    320.583   [ 5  5  1]   59
+ 135 Heredity    [      8    ]    -39.727    340.528   [ 4  6  1]    7
+ 136 Heredity    [      8    ]    -39.729    410.649   [ 3  5  1]  191
+ 137 Heredity    [      8    ]    -39.650    323.931   [ 5  5  1]   11
+ 138 Heredity    [      8    ]    -39.928    390.632   [ 5  4  1]   67
+ 139 Heredity    [      8    ]    -38.101    293.147   [ 4  6  1]    1
+ 140 Heredity    [      8    ]    -38.760    348.345   [ 5  4  1]    1
+ 141   Random    [      8    ]    -37.902    347.142   [ 5  5  1]    8
+ 142 Heredity    [      8    ]    -39.179    320.924   [ 5  5  1]   10
+ 143 Heredity    [      8    ]    -37.565    378.311   [ 5  4  1]    1
+ 144   Random    [      8    ]    -38.130    345.738   [ 4  4  1]   12
+ 145   Random    [      8    ]    -38.543    398.031   [ 6  3  1]    1
+ 146   Random    [      8    ]    -38.601    381.266   [ 4  4  1]    7
+ 147 softmutate  [      8    ]    -39.533    329.093   [ 4  6  1]    8
+ 148 softmutate  [      8    ]    -39.351    377.329   [ 3  6  1]    2
+ 149   Random    [      8    ]    -37.417    524.961   [ 6  3  1]    1
+ 150 keptBest    [      8    ]    -40.088    356.651   [ 4  6  1]   10
+ 151 keptBest    [      8    ]    -39.651    309.733   [ 5  5  1]   11
+ 152 keptBest    [      8    ]    -38.603    342.907   [ 4  5  1]    1
+ 153 softmutate  [      8    ]    -40.087    357.821   [ 4  6  1]   10
+ 154   Random    [      8    ]    -36.168    502.874   [ 4  4  1]    3
+ 155 softmutate  [      8    ]    -38.972    394.698   [ 4  5  1]    2
+ 156 softmutate  [      8    ]    -37.383    307.910   [ 5  5  1]    1
+                           Local optimization finished                          
+
+                             SUMMARY of Generation 7                            
+                        Correlation coefficient = 0.0234                        
+                             Quasi entropy = 0.2404                             
+                         Proceeding to Selection Process                        
+
+                               VARIATION OPERATORS                              
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.50
+    fraction of generation produced by random          :     0.28
+    fraction of generation produced by softmutation    :     0.22
+    fraction of generation produced by permutation     :     0.00
+    fraction of generation produced by latmutation     :     0.00
+    fraction of generation produced by rotmutation     :     0.00
+    fraction of generation produced by transmutation   :     0.00
+                           Variation operators applied                          
+              10 structures produced by heredity     
+               6 structures produced by random       
+               4 structures produced by softmutation 
+               0 structures produced by permutation  
+               0 structures produced by latmutation  
+               3 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_  8 
+                   Proceeding to the new generation relaxation                  
+       10 parallel calculations are performed simutaneously
+                                  Generation 8                                  
+  ID   Origin      Composition  Enthalpy(eV)  Volume(A^3)  KPOINTS  SYMMETRY
+ 157 Heredity    [      8    ]    -39.746    336.127   [ 4  5  1]   12
+ 158 Heredity    [      8    ]    -39.730    411.267   [ 3  5  1]  191
+ 159 Heredity    [      8    ]    -39.351    374.430   [ 3  6  1]    2
+ 160 Heredity    [      8    ]    -38.287    310.675   [ 4  6  1]    2
+ 161 Heredity    [      8    ]    -39.090    360.640   [ 3  6  1]    1
+ 162 Heredity    [      8    ]    -39.117    366.334   [ 3  6  1]    2
+ 163 Heredity    [      8    ]    -40.087    358.385   [ 4  6  1]   10
+ 164 Heredity    [      8    ]    -36.691    343.686   [ 3  7  1]    1
+ 165 Heredity    [      8    ]    -38.615    371.638   [ 4  5  1]    2
+ 166 Heredity    [      8    ]    -32.994    491.156   [ 3  6  1]    1
+ 167   Random    [      8    ]    -38.130    354.528   [ 4  4  1]   12
+ 168   Random    [      8    ]    -38.120    360.618   [ 4  4  1]   99
+ 169   Random    [      8    ]    -36.613    567.638   [ 4  4  1]   35
+ 170   Random    [      8    ]    -37.889    457.632   [ 3  5  1]    7
+ 171   Random    [      8    ]    -38.614    379.427   [ 4  4  1]   10
+ 172   Random    [      8    ]    -36.391    826.589   [ 3  3  1]  127
+ 173 softmutate  [      8    ]    -38.195    326.765   [ 4  6  1]    4
+ 174 softmutate  [      8    ]    -38.984    322.842   [ 4  5  1]    6
+ 175 keptBest    [      8    ]    -40.088    356.651   [ 4  6  1]   10
+ 176 keptBest    [      8    ]    -39.729    410.649   [ 3  5  1]  191
+ 177 keptBest    [      8    ]    -39.179    320.924   [ 5  5  1]   10
+ 178 softmutate  [      8    ]    -38.777    354.504   [ 4  6  1]    1
+ 179 softmutate  [      8    ]    -36.880    336.578   [ 4  6  1]    2
+                           Local optimization finished                          
+
+                             SUMMARY of Generation 8                            
+                        Correlation coefficient = -0.3949                       
+                             Quasi entropy = 0.2694                             
+                         Proceeding to Selection Process                        
+
+                               VARIATION OPERATORS                              
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.54
+    fraction of generation produced by random          :     0.26
+    fraction of generation produced by softmutation    :     0.20
+    fraction of generation produced by permutation     :     0.00
+    fraction of generation produced by latmutation     :     0.00
+    fraction of generation produced by rotmutation     :     0.00
+    fraction of generation produced by transmutation   :     0.00
+                           Variation operators applied                          
+              11 structures produced by heredity     
+               5 structures produced by random       
+               4 structures produced by softmutation 
+               0 structures produced by permutation  
+               0 structures produced by latmutation  
+               3 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_  9 
+                   Proceeding to the new generation relaxation                  
+       10 parallel calculations are performed simutaneously
+                                  Generation 9                                  
+  ID   Origin      Composition  Enthalpy(eV)  Volume(A^3)  KPOINTS  SYMMETRY
+ 180 Heredity    [      8    ]    -39.844    311.765   [ 4  6  1]   12
+ 181 Heredity    [      8    ]    -39.643    316.949   [ 5  5  1]    2
+ 182 Heredity    [      8    ]    -39.737    346.986   [ 4  6  1]    2
+ 183 Heredity    [      8    ]    -38.655    292.878   [ 4  6  1]    1
+ 184 Heredity    [      8    ]    -38.654    318.889   [ 4  5  1]    1
+ 185 Heredity    [      8    ]    -38.988    345.465   [ 4  6  1]    6
+ 186 Heredity    [      8    ]    -39.253    318.971   [ 4  6  1]    1
+ 187 Heredity    [      8    ]    -39.175    334.158   [ 4  6  1]    1
+ 188 Heredity    [      8    ]    -38.074    338.848   [ 4  4  1]    1
+ 189 Heredity    [      8    ]    -34.359    341.963   [ 4  6  1]    1
+ 190   Random    [      8    ]    -39.371    351.863   [ 5  5  1]   51
+ 191   Random    [      8    ]    -36.613    580.115   [ 4  4  1]  183
+ 192   Random    [      8    ]    -37.728    409.644   [ 4  5  1]   12
+ 193   Random    [      8    ]    -36.666    645.252   [ 3  4  1]    3
+ 194   Random    [      8    ]    -36.296    527.986   [ 4  4  1]  191
+ 195 softmutate  [      8    ]    -39.405    377.704   [ 3  5  1]    2
+ 196 softmutate  [      8    ]    -40.088    357.117   [ 4  6  1]   10
+ 197 keptBest    [      8    ]    -40.088    356.651   [ 4  6  1]   10
+ 198 keptBest    [      8    ]    -39.746    336.127   [ 4  5  1]   12
+ 199 keptBest    [      8    ]    -39.179    320.924   [ 5  5  1]   10
+ 200 softmutate  [      8    ]    -37.895    411.579   [ 3  5  1]   28
+ 201 Heredity    [      8    ]    -36.618    301.909   [ 6  5  1]    1
+ 202 softmutate  [      8    ]    -38.062    360.896   [ 4  5  1]    6
+                           Local optimization finished                          
+
+                             SUMMARY of Generation 9                            
+                        Correlation coefficient = -0.0708                       
+                             Quasi entropy = 0.2551                             
+                         Proceeding to Selection Process                        
+
+                               VARIATION OPERATORS                              
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.43
+    fraction of generation produced by random          :     0.31
+    fraction of generation produced by softmutation    :     0.25
+    fraction of generation produced by permutation     :     0.00
+    fraction of generation produced by latmutation     :     0.00
+    fraction of generation produced by rotmutation     :     0.00
+    fraction of generation produced by transmutation   :     0.00
+                           Variation operators applied                          
+               9 structures produced by heredity     
+               6 structures produced by random       
+               5 structures produced by softmutation 
+               0 structures produced by permutation  
+               0 structures produced by latmutation  
+               3 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_ 10 
+                   Proceeding to the new generation relaxation                  
+       10 parallel calculations are performed simutaneously
+                                  Generation 10                                 
+  ID   Origin      Composition  Enthalpy(eV)  Volume(A^3)  KPOINTS  SYMMETRY
+ 203 Heredity    [      8    ]    -39.673    321.477   [ 5  5  1]   67
+ 204 Heredity    [      8    ]    -38.339    448.236   [ 5  4  1]    1
+ 205 Heredity    [      8    ]    -40.087    358.368   [ 4  6  1]   10
+ 206 Heredity    [      8    ]    -39.178    328.256   [ 5  5  1]   10
+ 207 Heredity    [      8    ]    -38.698    308.359   [ 4  6  1]    1
+ 208 Heredity    [      8    ]    -38.891    312.293   [ 4  6  1]    6
+ 209 Heredity    [      8    ]    -39.521    319.316   [ 4  6  1]    1
+ 210 Heredity    [      8    ]    -39.248    324.231   [ 4  5  1]    1
+ 211 Heredity    [      8    ]    -38.987    345.233   [ 4  6  1]    6
+ 212   Random    [      8    ]    -38.130    354.365   [ 4  4  1]   12
+ 213   Random    [      8    ]    -38.135    349.516   [ 8  2  1]   25
+ 214   Random    [      8    ]    -37.905    446.348   [ 4  4  1]   25
+ 215   Random    [      8    ]    -37.714    450.966   [ 4  4  1]   85
+ 216   Random    [      8    ]    -37.277    371.531   [ 4  5  1]   28
+ 217   Random    [      8    ]    -38.614    378.630   [ 4  4  1]   28
+ 218 softmutate  [      8    ]    -39.651    321.863   [ 5  5  1]  129
+ 219 softmutate  [      8    ]    -39.003    319.726   [ 5  5  1]   12
+ 220 softmutate  [      8    ]    -37.731    398.656   [ 4  5  1]   12
+ 221 softmutate  [      8    ]    -38.982    346.518   [ 4  6  1]    6
+ 222 keptBest    [      8    ]    -40.088    356.651   [ 4  6  1]   10
+ 223 keptBest    [      8    ]    -39.643    316.949   [ 5  5  1]    2
+ 224 keptBest    [      8    ]    -38.988    345.465   [ 4  6  1]    6
+ 225 softmutate  [      8    ]    -38.896    277.748   [ 4  6  1]    2
+                           Local optimization finished                          
+
+                            SUMMARY of Generation 10                            
+                        Correlation coefficient = 0.3340                        
+                             Quasi entropy = 0.2501                             
+                         Proceeding to Selection Process                        
+
+                               VARIATION OPERATORS                              
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.43
+    fraction of generation produced by random          :     0.31
+    fraction of generation produced by softmutation    :     0.25
+    fraction of generation produced by permutation     :     0.00
+    fraction of generation produced by latmutation     :     0.00
+    fraction of generation produced by rotmutation     :     0.00
+    fraction of generation produced by transmutation   :     0.00
+                           Variation operators applied                          
+               9 structures produced by heredity     
+               6 structures produced by random       
+               5 structures produced by softmutation 
+               0 structures produced by permutation  
+               0 structures produced by latmutation  
+               3 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_ 11 
+                   Proceeding to the new generation relaxation                  
+       10 parallel calculations are performed simutaneously
+                                  Generation 11                                 
+  ID   Origin      Composition  Enthalpy(eV)  Volume(A^3)  KPOINTS  SYMMETRY
+ 226 Heredity    [      8    ]    -40.088    357.877   [ 4  6  1]   10
+ 227 Heredity    [      8    ]    -39.651    321.199   [ 5  5  1]   59
+ 228 Heredity    [      8    ]    -39.533    332.413   [ 4  6  1]   35
+ 229 Heredity    [      8    ]    -39.650    321.314   [ 5  5  1]   59
+ 230 Heredity    [      8    ]    -38.856    340.983   [ 5  4  1]    1
+ 231 Heredity    [      8    ]    -38.913    350.614   [ 4  6  1]    1
+ 232 Heredity    [      8    ]    -38.904    302.515   [ 4  6  1]    1
+ 233 Heredity    [      8    ]    -38.560    331.712   [ 4  6  1]    1
+ 234   Random    [      8    ]    -35.943    653.142   [ 3  3  1]  123
+ 235 Heredity    [      8    ]    -36.842    328.858   [ 4  6  1]    1
+ 236   Random    [      8    ]    -38.064    394.709   [ 3  6  1]  191
+ 237   Random    [      8    ]    -38.130    354.800   [ 4  4  1]   12
+ 238   Random    [      8    ]    -38.723    370.364   [ 3  6  1]    1
+ 239   Random    [      8    ]    -36.614    578.045   [ 4  4  1]  183
+ 240 softmutate  [      8    ]    -39.382    335.570   [ 4  6  1]    1
+ 241 softmutate  [      8    ]    -39.650    321.131   [ 5  5  1]  129
+ 242 softmutate  [      8    ]    -39.603    301.552   [ 4  6  1]    2
+ 243 keptBest    [      8    ]    -40.088    356.651   [ 4  6  1]   10
+ 244 keptBest    [      8    ]    -39.673    321.477   [ 5  5  1]   67
+ 245 keptBest    [      8    ]    -39.003    319.726   [ 5  5  1]   12
+ 246   Random    [      8    ]    -38.567    362.137   [ 5  4  1]    1
+ 247 softmutate  [      8    ]    -38.940    385.987   [ 4  6  1]    1
+ 248 softmutate  [      8    ]    -36.209    337.448   [ 7  4  1]    1
+                           Local optimization finished                          
+
+                            SUMMARY of Generation 11                            
+                        Correlation coefficient = 0.4550                        
+                             Quasi entropy = 0.2677                             
+                         Proceeding to Selection Process                        
+
+                               VARIATION OPERATORS                              
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.38
+    fraction of generation produced by random          :     0.34
+    fraction of generation produced by softmutation    :     0.28
+    fraction of generation produced by permutation     :     0.00
+    fraction of generation produced by latmutation     :     0.00
+    fraction of generation produced by rotmutation     :     0.00
+    fraction of generation produced by transmutation   :     0.00
+                           Variation operators applied                          
+               8 structures produced by heredity     
+               7 structures produced by random       
+               6 structures produced by softmutation 
+               0 structures produced by permutation  
+               0 structures produced by latmutation  
+               3 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_ 12 
+                   Proceeding to the new generation relaxation                  
+       10 parallel calculations are performed simutaneously
+                                  Generation 12                                 
+  ID   Origin      Composition  Enthalpy(eV)  Volume(A^3)  KPOINTS  SYMMETRY
+ 249 Heredity    [      8    ]    -39.746    332.558   [ 4  5  1]   12
+ 250 Heredity    [      8    ]    -38.461    270.075   [ 5  5  1]    7
+ 251 Heredity    [      8    ]    -39.650    321.641   [ 5  5  1]  129
+ 252 Heredity    [      8    ]    -38.397    325.141   [ 4  6  1]    1
+ 253 Heredity    [      8    ]    -39.859    385.302   [ 3  6  1]   12
+ 254 Heredity    [      8    ]    -39.650    322.663   [ 5  5  1]   59
+ 255 Heredity    [      8    ]    -39.533    332.491   [ 4  6  1]   35
+ 256 Heredity    [      8    ]    -38.853    342.363   [ 5  4  1]    1
+ 257   Random    [      8    ]    -36.295    537.906   [ 4  4  1]  191
+ 258   Random    [      8    ]    -38.238    419.369   [ 4  4  1]    1
+ 259   Random    [      8    ]    -37.810    389.787   [ 4  4  1]    1
+ 260   Random    [      8    ]    -37.827    440.605   [ 4  4  1]  143
+ 261   Random    [      8    ]    -38.766    447.737   [ 4  4  1]   13
+ 262   Random    [      8    ]    -39.928    390.331   [ 5  4  1]   67
+ 263   Random    [      8    ]    -38.130    354.422   [ 4  4  1]   12
+ 264 softmutate  [      8    ]    -39.651    317.807   [ 5  5  1]   59
+ 265 softmutate  [      8    ]    -38.769    304.747   [ 4  6  1]    1
+ 266 softmutate  [      8    ]    -39.531    332.148   [ 4  6  1]    8
+ 267 softmutate  [      8    ]    -39.415    386.024   [ 3  6  1]    2
+ 268 softmutate  [      8    ]    -38.860    335.226   [ 5  4  1]    1
+ 269 keptBest    [      8    ]    -40.088    356.651   [ 4  6  1]   10
+ 270 keptBest    [      8    ]    -39.673    321.477   [ 5  5  1]   67
+ 271 keptBest    [      8    ]    -39.382    335.570   [ 4  6  1]    1
+ 272 softmutate  [      8    ]    -39.651    319.245   [ 5  5  1]   59
+                           Local optimization finished                          
+
+                            SUMMARY of Generation 12                            
+                        Correlation coefficient = 0.3294                        
+                             Quasi entropy = 0.2539                             
+                         Proceeding to Selection Process                        
+
+                               VARIATION OPERATORS                              
+The fittest 70 percent of the population used to produce next generation
+    fraction of generation produced by heredity        :     0.40
+    fraction of generation produced by random          :     0.38
+    fraction of generation produced by softmutation    :     0.22
+    fraction of generation produced by permutation     :     0.00
+    fraction of generation produced by latmutation     :     0.00
+    fraction of generation produced by rotmutation     :     0.00
+    fraction of generation produced by transmutation   :     0.00
+                           Variation operators applied                          
+               8 structures produced by heredity     
+               8 structures produced by random       
+               4 structures produced by softmutation 
+               0 structures produced by permutation  
+               0 structures produced by latmutation  
+               3 structures kept as best from the previous generation
+               0 Seeds structures are added from Seeds/POSCARS_ 13 
+                   Proceeding to the new generation relaxation                  
+       10 parallel calculations are performed simutaneously
+                                  Generation 13                                 
+  ID   Origin      Composition  Enthalpy(eV)  Volume(A^3)  KPOINTS  SYMMETRY
+ 273 Heredity    [      8    ]    -38.753    313.387   [ 4  6  1]    1
+ 274 Heredity    [      8    ]    -39.371    384.308   [ 4  5  1]    2
+ 275 Heredity    [      8    ]    -40.087    357.377   [ 4  6  1]    2
+ 276 Heredity    [      8    ]    -39.534    332.347   [ 4  6  1]   35
+ 277 Heredity    [      8    ]    -38.986    315.854   [ 5  4  1]    1
+ 278 Heredity    [      8    ]    -38.670    303.546   [ 4  6  1]    2
+ 279   Random    [      8    ]    -38.221    368.587   [ 3  6  1]    2
+ 280 Heredity    [      8    ]    -37.804    321.366   [ 3  8  1]    1
+ 281   Random    [      8    ]    -36.479    728.873   [ 2  4  1]   28
+ 282 Heredity    [      8    ]    -37.177    285.121   [ 5  5  1]    1
+ 283   Random    [      8    ]    -39.730    411.316   [ 3  5  1]  191
+ 284   Random    [      8    ]    -39.263    348.713   [ 5  4  1]   51
+ 285   Random    [      8    ]    -39.263    349.069   [ 5  4  1]   51
+ 286   Random    [      8    ]    -37.467    383.087   [ 5  4  1]   28
+ 287 softmutate  [      8    ]    -40.088    358.135   [ 4  6  1]   10
+ 288 keptBest    [      8    ]    -40.088    356.651   [ 4  6  1]   10
+ 289 keptBest    [      8    ]    -39.746    332.558   [ 4  5  1]   12
+ 290 softmutate  [      8    ]    -38.856    344.152   [ 5  4  1]    1
+ 291   Random    [      8    ]    -36.879    514.104   [ 4  4  1]    1
+ 292 keptBest    [      8    ]    -38.461    270.075   [ 5  5  1]    7
+ 293   Random    [      8    ]    -35.875    707.371   [ 4  3  1]    3
+ 294 softmutate  [      8    ]    -39.533    332.240   [ 4  6  1]   35
+ 295 softmutate  [      8    ]    -39.599    300.759   [ 6  4  1]    2
+                           Local optimization finished                          
+
+                            SUMMARY of Generation 13                            
+                        Correlation coefficient = -0.7762                       
+                             Quasi entropy = 0.2731                             
+ Halting criteria achieved: 10 
+This calculation runs  295 structural relaxations
+ |+  +  +                              
+ |                                     
+ |                                     
+ |                                     
+ |                                     
+ |                                     
+ |                                     
+ |                                     
+ |                                     
+ |                                     
+ |                                     
+ |                                     
+ |                                     
+ |         +  +  +  +  +  +  +  +  +  +
+--o--o--o--o--o--o--o--o--o--o--o--o--o
+  1  2  3  4  5  6  7  8  9 10 11 12 13
+
+The lowest target fitness is -5.0110 eV
+
+            Job Finished at                 19-Sep-2015 02:51:32

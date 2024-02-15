@@ -1,0 +1,47 @@
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+USPEX : calculationMethod (USPEX, VCNEB, META)
+300   : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+1     : optType (optimise by: 1=enthalpy, 2=volume, 3=hardness,...) 
+1     : AutoFrac
+
+% atomType
+C
+% EndAtomType
+
+% numSpecies
+8
+% EndNumSpecies
+******************************************
+*               POPULATION               *
+******************************************
+20    : populationSize 
+20    : numGenerations 
+10    : stopCrit 
+1     : reoptOld 
+******************************************
+*          VARIATION OPERATORS           *
+******************************************
+0.60  : fracGene 
+0.20  : fracRand 
+0.20  : fracAtomsMut 
+0.00  : fracLatMut
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   * 
+*****************************************
+% abinitioCode 
+11 11 11 11
+% ENDabinit
+
+% KresolStart
+0.13 0.11 0.09 0.07
+%  Kresolend
+
+% commandExecutable
+RunCASTEP.sh -np 4 cstp >> log
+% EndExecutable 
+
+0      : whichCluster (0: no-job-script, 1: local submission, 2: remote submission)
+1      : numParallelCalcs
+

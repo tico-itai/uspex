@@ -1,0 +1,20 @@
+SYSTEM = GaN wurtzite
+#Aim - make distances reasonable, at constant cell.
+ISYM=0
+SYMPREC=1e-9
+ENCUT=400
+PREC = Normal
+### relaxation
+NSW = 40
+IBRION = 2
+ISIF = 2
+ISMEAR = 0
+SIGMA = 0.10
+LCHARG = FALSE
+LWAVE = FALSE
+LPLANE = .TRUE.
+LREAL= Auto
+ALGO = 48
+POTIM = 0.10
+NPAR = 4
+LMAXMIX =  4

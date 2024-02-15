@@ -1,0 +1,28 @@
+******************************************
+*      TYPE OF RUN AND SYSTEM            *
+******************************************
+% atomType
+Mg Al O
+% EndAtomType
+
+% numSpecies
+4 8 16
+% EndNumSpecies
+
+10      : populationSize 
+10      : initialPopSize 
+1       : numGenerations 
+
+% IonDistances
+0.6 0.6 0.6
+0.0 0.6 0.6
+0.0 0.0 0.6
+% EndDistances
+
+abinitioCode 
+3 3 3 3
+ENDabinit
+
+% commandExecutable
+timeout 60 gulp < input > output
+% EndExecutable

@@ -1,0 +1,86 @@
+#CPQA INCLUDE ./nonscc_parameter
+#CPQA INCLUDE ./uff_table
+#CPQA INCLUDE ./nn
+#CPQA INCLUDE ./cc
+#CPQA INCLUDE ./cn
+#CPQA INCLUDE ./nc
+&GLOBAL
+  PROJECT USPEX
+  RUN_TYPE GEO_OPT
+  PRINT_LEVEL LOW
+&END GLOBAL
+
+&MOTION
+  &GEO_OPT
+    OPTIMIZER BFGS
+    MAX_ITER  20
+  &END GEO_OPT
+  &PRINT
+    &TRAJECTORY
+      LOG_PRINT_KEY T
+      FORMAT  XYZ
+      &EACH
+         GEO_OPT 1
+      &END EACH
+    &END TRAJECTORY
+    &CELL
+     &EACH 
+       GEO_OPT 1
+     &END EACH
+    &END CELL
+    &RESTART OFF
+    &END
+    &RESTART_HISTORY OFF
+    &END
+  &END PRINT
+&END MOTION
+
+&FORCE_EVAL
+  STRESS_TENSOR NUMERICAL
+  &PRINT
+     &STRESS_TENSOR
+       NDIGITS 1
+       FILENAME ./lattice
+       COMMON_ITERATION_LEVELS 100000
+     &END STRESS_TENSOR
+     &FORCES
+       NDIGITS 12
+       FILENAME ./atom_forces
+       COMMON_ITERATION_LEVELS 100000
+       &EACH
+         GEO_OPT 1
+       &END EACH
+     &END FORCES
+  &END PRINT
+  &DFT
+    &QS
+      METHOD DFTB
+      &DFTB
+        SELF_CONSISTENT    F
+        DISPERSION         T
+        ORTHOGONAL_BASIS   F
+        DO_EWALD           T
+        &PARAMETER
+          PARAM_FILE_PATH   ./
+          PARAM_FILE_NAME  nonscc_parameter
+          UFF_FORCE_FIELD  ./uff_table
+        &END PARAMETER
+      &END DFTB
+    &END QS
+    &SCF
+      SCF_GUESS NONE 
+      MAX_SCF  1
+      &MIXING
+          METHOD DIRECT_P_MIXING
+          ALPHA   1.
+      &END
+    &END SCF
+    &POISSON
+      &EWALD
+        EWALD_TYPE SPME
+        GMAX 25
+      &END EWALD
+    &END POISSON
+  &END DFT
+  @INCLUDE 'subsys.uspex'
+&END FORCE_EVAL

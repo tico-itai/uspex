@@ -1,0 +1,37 @@
+Since 9.3.8, we slightly change the definition of Lattice values
+in the INPUT.txt for variable composition. Instead of the atomic
+volume, the estimated volume for each block is now required.
+
+For instance, suppose the two blocks are Ar and Kr.
+One should put the volumes for single Ar and Kr atom.
+% atomType
+Mo B
+% EndAtomType
+
+% numSpecies
+1 0
+0 1
+% EndNumSpecies
+
+% Latticevalues (this word MUST stay here, type values below)
+16.5 6.2
+% Endvalues (this word MUST stay here)
+
+
+If the blocks are MoB and B.
+One should put the volumes for MoB and B.
+
+% numSpecies
+1 1
+0 1
+% EndNumSpecies
+
+% Latticevalues (this word MUST stay here, type values below)
+22.7 6.2
+% Endvalues (this word MUST stay here)
+
+The setup is trivial. USPEX makes it even simpler by having a powerful algorithm to estimate the volumes by default.
+Also, results1/approximate_volumes give the reference values as well.
+
+approximate volume for each species:
+19.0329 7.7325

@@ -1,0 +1,60 @@
+META  : calculationMethod (USPEX, VCNEB, META)
+300   : calculationType (dimension: 0-3; molecule: 0/1; varcomp: 0/1)
+
+*****************************************
+*****************************************
+*                 CELL                  *
+*****************************************
+*****************************************
+% IonDistances
+0.9 0.9 0.9
+0.0 0.9 0.9
+0.0 0.0 0.9
+% EndDistances
+
+200.00  : ExternalPressure(GPa)
+
+10.0  : maxVectorLength ( maximal length of any lattice vector)
+
+******************************************
+******************************************
+*               POPULATION               *
+******************************************
+******************************************
+2     : populationSize 
+3     : numGenerations 
+3.0   : mutationDegree
+4000  : GaussianHeight
+0.6   : GaussianWidth
+2     : FullRelax (1 - Relax the BestStructure at the end of each generation)
+
+*****************************************
+*****************************************
+*   DETAILS OF AB INITIO CALCULATIONS   * 
+*****************************************
+*****************************************
+% abinitioCode 
+3 3 3 (3)
+% ENDabinit
+
+% KresolStart
+0.12 0.10 0.10 0.10
+% Kresolend
+
+% commandExecutable
+timeout 60 gulp < input > output
+% EndExecutable
+
+1     : numParallelCalcs (how many parallel calculations shall be performed)
+0     : whichCluster (0: no-job-script, 1: local submission, 2: remote submission)
+200   : ExternalPressure
+
+*****************************************
+*****************************************
+*               RESTART                 *
+*****************************************
+*****************************************
+0    : pickUpYN 
+0    : pickUpGen
+0    : pickUpFolder 
+
