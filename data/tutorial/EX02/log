@@ -1,4 +1,4 @@
-2024年  2月 14日 水曜日 13:28:44 JST
+2024年  2月 16日 金曜日 11:41:32 JST
   
 POP_STRUC =
 
@@ -52,130 +52,130 @@ POP_STRUC =
     fitness = [](0x0)
     convex_hull = [](0x0)
 
-  Initial space group: P4_322 (95)
-  Actual  space group: P4_322 (95) (determined with tolerance=0.05)
-Structure 1 built with the symmetry group 95 (P4_322)
-  Initial space group: Pnc2 (30)
-  Actual  space group: Pnc2 (30) (determined with tolerance=0.05)
-Structure 2 built with the symmetry group 30 (Pnc2)
-  Initial space group: Pccm (49)
-  Actual  space group: Pccm (49) (determined with tolerance=0.05)
-Structure 3 built with the symmetry group 49 (Pccm)
-  Initial space group: Fm-3 (202)
-  Actual  space group: Fm-3m (225) (determined with tolerance=0.05)
-Structure 4 built with the symmetry group 202 (Fm-3)
-  Initial space group: Pccn (56)
-  Actual  space group: Pccn (56) (determined with tolerance=0.05)
-Structure 5 built with the symmetry group 56 (Pccn)
-  Initial space group: Cccm (66)
-  Actual  space group: P-1 (2) (determined with tolerance=0.05)
-Structure 6 built with the symmetry group 66 (Cccm)
-  Initial space group: P-4c2 (116)
-  Actual  space group: P-4c2 (116) (determined with tolerance=0.05)
-Structure 7 built with the symmetry group 116 (P-4c2)
-  Initial space group: I2_12_12_1 (24)
-  Actual  space group: P1 (1) (determined with tolerance=0.05)
-  Initial space group: I2_12_12_1 (24)
-  Actual  space group: I2_12_12_1 (24) (determined with tolerance=0.05)
-Structure 8 built with the symmetry group 24 (I2_12_12_1)
-  Initial space group: Imma (74)
-  Actual  space group: P-1 (2) (determined with tolerance=0.05)
-Structure 9 built with the symmetry group 74 (Imma)
-  Initial space group: Am (8)
-  Actual  space group: Am (8) (determined with tolerance=0.05)
-Structure 10 built with the symmetry group 8 (Am)
-  Initial space group: P4_232 (208)
-  Actual  space group: P4_232 (208) (determined with tolerance=0.05)
-Structure 11 built with the symmetry group 208 (P4_232)
-  Initial space group: P4cc (103)
-  Actual  space group: P4cc (103) (determined with tolerance=0.05)
-Structure 12 built with the symmetry group 103 (P4cc)
-  Initial space group: Pmmn (59)
-  Actual  space group: Pmmn (59) (determined with tolerance=0.05)
-Structure 13 built with the symmetry group 59 (Pmmn)
-  Initial space group: P4 (75)
-  Actual  space group: P4 (75) (determined with tolerance=0.05)
-Structure 14 built with the symmetry group 75 (P4)
-  Initial space group: P6_3/mmc (194)
-  Actual  space group: P6_3/mmc (194) (determined with tolerance=0.05)
-Structure 15 built with the symmetry group 194 (P6_3/mmc)
-  Initial space group: Cmc2_1 (36)
-  Actual  space group: P1 (1) (determined with tolerance=0.05)
-Structure 16 built with the symmetry group 36 (Cmc2_1)
-  Initial space group: P4_32_12 (96)
-  Actual  space group: P4_32_12 (96) (determined with tolerance=0.05)
-Structure 17 built with the symmetry group 96 (P4_32_12)
-  Initial space group: R-3 (148)
-  Actual  space group: R-3 (148) (determined with tolerance=0.05)
-Structure 18 built with the symmetry group 148 (R-3)
-  Initial space group: P2_1/a (14)
-  Actual  space group: P2_1/a (14) (determined with tolerance=0.05)
-Structure 19 built with the symmetry group 14 (P2_1/a)
-  Initial space group: P6mm (183)
-  Actual  space group: P6mm (183) (determined with tolerance=0.05)
-Structure 20 built with the symmetry group 183 (P6mm)
-  Initial space group: Immm (71)
-  Actual  space group: Immm (71) (determined with tolerance=0.05)
-Structure 21 built with the symmetry group 71 (Immm)
-  Initial space group: Pbca (61)
-  Actual  space group: Pbca (61) (determined with tolerance=0.05)
-Structure 22 built with the symmetry group 61 (Pbca)
-  Initial space group: P-4m2 (115)
-  Actual  space group: P-4m2 (115) (determined with tolerance=0.05)
-Structure 23 built with the symmetry group 115 (P-4m2)
-  Initial space group: Im-3 (204)
-  Actual  space group: Im-3 (204) (determined with tolerance=0.05)
-Structure 24 built with the symmetry group 204 (Im-3)
-  Initial space group: Pm-3 (200)
-  Actual  space group: Pm-3m (221) (determined with tolerance=0.05)
-Structure 25 built with the symmetry group 200 (Pm-3)
-  Initial space group: P-42_1c (114)
-  Actual  space group: P-42_1c (114) (determined with tolerance=0.05)
-Structure 26 built with the symmetry group 114 (P-42_1c)
-  Initial space group: Cccm (66)
-  Actual  space group: P-1 (2) (determined with tolerance=0.05)
-  Initial space group: Cccm (66)
-  Actual  space group: Cccm (66) (determined with tolerance=0.05)
-Structure 27 built with the symmetry group 66 (Cccm)
-  Initial space group: P-3 (147)
-  Actual  space group: P-3 (147) (determined with tolerance=0.05)
-Structure 28 built with the symmetry group 147 (P-3)
-  Initial space group: P-42_1m (113)
-  Actual  space group: P-42_1m (113) (determined with tolerance=0.05)
-Structure 29 built with the symmetry group 113 (P-42_1m)
   Initial space group: P-4 (81)
   Actual  space group: P-4 (81) (determined with tolerance=0.05)
-Structure 30 built with the symmetry group 81 (P-4)
-  Initial space group: I-4 (82)
-  Actual  space group: I-4 (82) (determined with tolerance=0.05)
-Structure 31 built with the symmetry group 82 (I-4)
-  Initial space group: Pma2 (28)
-  Actual  space group: Pma2 (28) (determined with tolerance=0.05)
-Structure 32 built with the symmetry group 28 (Pma2)
-  Initial space group: Pbca (61)
-  Actual  space group: Pbca (61) (determined with tolerance=0.05)
-Structure 33 built with the symmetry group 61 (Pbca)
-  Initial space group: I-42d (122)
-  Actual  space group: I-42d (122) (determined with tolerance=0.05)
-Structure 34 built with the symmetry group 122 (I-42d)
-  Initial space group: Pbam (55)
-  Actual  space group: Pbam (55) (determined with tolerance=0.05)
-Structure 35 built with the symmetry group 55 (Pbam)
+Structure 1 built with the symmetry group 81 (P-4)
+  Initial space group: F432 (209)
+  Actual  space group: Fm-3m (225) (determined with tolerance=0.05)
+Structure 2 built with the symmetry group 209 (F432)
+  Initial space group: P-42m (111)
+  Actual  space group: P-42m (111) (determined with tolerance=0.05)
+Structure 3 built with the symmetry group 111 (P-42m)
+  Initial space group: P6_3/mcm (193)
+  Actual  space group: P6_3/mcm (193) (determined with tolerance=0.05)
+Structure 4 built with the symmetry group 193 (P6_3/mcm)
+  Initial space group: I4_132 (214)
+  Actual  space group: I4_132 (214) (determined with tolerance=0.05)
+Structure 5 built with the symmetry group 214 (I4_132)
+  Initial space group: Pa (7)
+  Actual  space group: Pa (7) (determined with tolerance=0.05)
+Structure 6 built with the symmetry group 7 (Pa)
   Initial space group: P4_2/ncm (138)
   Actual  space group: P4_2/ncm (138) (determined with tolerance=0.05)
-Structure 36 built with the symmetry group 138 (P4_2/ncm)
-  Initial space group: P4/ncc (130)
-  Actual  space group: P4/ncc (130) (determined with tolerance=0.05)
-Structure 37 built with the symmetry group 130 (P4/ncc)
-  Initial space group: P4_322 (95)
-  Actual  space group: P4_322 (95) (determined with tolerance=0.05)
-Structure 38 built with the symmetry group 95 (P4_322)
-  Initial space group: I4/m (87)
-  Actual  space group: I4/m (87) (determined with tolerance=0.05)
-Structure 39 built with the symmetry group 87 (I4/m)
-  Initial space group: I4/m (87)
-  Actual  space group: I4/m (87) (determined with tolerance=0.05)
-Structure 40 built with the symmetry group 87 (I4/m)
+Structure 7 built with the symmetry group 138 (P4_2/ncm)
+  Initial space group: I4/mcm (140)
+  Actual  space group: I4/mcm (140) (determined with tolerance=0.05)
+Structure 8 built with the symmetry group 140 (I4/mcm)
+  Initial space group: P321 (150)
+  Actual  space group: P321 (150) (determined with tolerance=0.05)
+Structure 9 built with the symmetry group 150 (P321)
+  Initial space group: P4_3 (78)
+  Actual  space group: P4_3 (78) (determined with tolerance=0.05)
+Structure 10 built with the symmetry group 78 (P4_3)
+  Initial space group: P312 (149)
+  Actual  space group: P312 (149) (determined with tolerance=0.05)
+Structure 11 built with the symmetry group 149 (P312)
+  Initial space group: P4_122 (91)
+  Actual  space group: P4_122 (91) (determined with tolerance=0.05)
+Structure 12 built with the symmetry group 91 (P4_122)
+  Initial space group: P4_2/ncm (138)
+  Actual  space group: P4_2/ncm (138) (determined with tolerance=0.05)
+Structure 13 built with the symmetry group 138 (P4_2/ncm)
+  Initial space group: F23 (196)
+  Actual  space group: F23 (196) (determined with tolerance=0.05)
+Structure 14 built with the symmetry group 196 (F23)
+  Initial space group: I-4 (82)
+  Actual  space group: I-4 (82) (determined with tolerance=0.05)
+Structure 15 built with the symmetry group 82 (I-4)
+  Initial space group: P4/mmm (123)
+  Actual  space group: P4/mmm (123) (determined with tolerance=0.05)
+Structure 16 built with the symmetry group 123 (P4/mmm)
+  Initial space group: Pnnm (58)
+  Actual  space group: Pnnm (58) (determined with tolerance=0.05)
+Structure 17 built with the symmetry group 58 (Pnnm)
+  Initial space group: Pnnn (48)
+  Actual  space group: Pnnn (48) (determined with tolerance=0.05)
+Structure 18 built with the symmetry group 48 (Pnnn)
+  Initial space group: I222 (23)
+  Actual  space group: P1 (1) (determined with tolerance=0.05)
+  Initial space group: I222 (23)
+  Actual  space group: P1 (1) (determined with tolerance=0.05)
+Structure 19 built with the symmetry group 23 (I222)
+  Initial space group: P4_2/mcm (132)
+  Actual  space group: P4_2/mcm (132) (determined with tolerance=0.05)
+Structure 20 built with the symmetry group 132 (P4_2/mcm)
+  Initial space group: P222 (16)
+  Actual  space group: P222 (16) (determined with tolerance=0.05)
+Structure 21 built with the symmetry group 16 (P222)
+  Initial space group: Pbcm (57)
+  Actual  space group: Pbcm (57) (determined with tolerance=0.05)
+Structure 22 built with the symmetry group 57 (Pbcm)
+  Initial space group: Pn-3m (224)
+  Actual  space group: Pn-3m (224) (determined with tolerance=0.05)
+Structure 23 built with the symmetry group 224 (Pn-3m)
+  Initial space group: P2_1/a (14)
+  Actual  space group: P2_1/a (14) (determined with tolerance=0.05)
+Structure 24 built with the symmetry group 14 (P2_1/a)
+  Initial space group: Pnn2 (34)
+  Actual  space group: Pnn2 (34) (determined with tolerance=0.05)
+Structure 25 built with the symmetry group 34 (Pnn2)
+  Initial space group: F4_132 (210)
+  Actual  space group: Fd-3m (227) (determined with tolerance=0.05)
+Structure 26 built with the symmetry group 210 (F4_132)
+  Initial space group: P4nc (104)
+  Actual  space group: P4nc (104) (determined with tolerance=0.05)
+Structure 27 built with the symmetry group 104 (P4nc)
+  Initial space group: P4_1 (76)
+  Actual  space group: P4_1 (76) (determined with tolerance=0.05)
+Structure 28 built with the symmetry group 76 (P4_1)
+  Initial space group: P4/nmm (129)
+  Actual  space group: P4/nmm (129) (determined with tolerance=0.05)
+Structure 29 built with the symmetry group 129 (P4/nmm)
+  Initial space group: P4_12_12 (92)
+  Actual  space group: P4_12_12 (92) (determined with tolerance=0.05)
+Structure 30 built with the symmetry group 92 (P4_12_12)
+  Initial space group: P4nc (104)
+  Actual  space group: P4nc (104) (determined with tolerance=0.05)
+Structure 31 built with the symmetry group 104 (P4nc)
+  Initial space group: I432 (211)
+  Actual  space group: Im-3m (229) (determined with tolerance=0.05)
+Structure 32 built with the symmetry group 211 (I432)
+  Initial space group: P6/mmm (191)
+  Actual  space group: P6/mmm (191) (determined with tolerance=0.05)
+Structure 33 built with the symmetry group 191 (P6/mmm)
+  Initial space group: P2_1 (4)
+  Actual  space group: P2_1 (4) (determined with tolerance=0.05)
+Structure 34 built with the symmetry group 4 (P2_1)
+  Initial space group: Imm2 (44)
+  Actual  space group: P1 (1) (determined with tolerance=0.05)
+Structure 35 built with the symmetry group 44 (Imm2)
+  Initial space group: P4_2/nnm (134)
+  Actual  space group: P4_2/nnm (134) (determined with tolerance=0.05)
+Structure 36 built with the symmetry group 134 (P4_2/nnm)
+  Initial space group: P3m1 (156)
+  Actual  space group: P3m1 (156) (determined with tolerance=0.05)
+Structure 37 built with the symmetry group 156 (P3m1)
+  Initial space group: I4_1md (109)
+  Actual  space group: I4_1md (109) (determined with tolerance=0.05)
+Structure 38 built with the symmetry group 109 (I4_1md)
+  Initial space group: I432 (211)
+  Actual  space group: I432 (211) (determined with tolerance=0.05)
+Structure 39 built with the symmetry group 211 (I432)
+  Initial space group: P2/m (10)
+  Actual  space group: P2/m (10) (determined with tolerance=0.05)
+  Initial space group: P2/m (10)
+  Actual  space group: P2/m (10) (determined with tolerance=0.05)
+Structure 40 built with the symmetry group 10 (P2/m)
  
 ATTENTION! In 5 / 40 cases actually generated symmetry was different.
  
@@ -184,208 +184,6 @@ Read Seeds ...
  
 Read AntiSeeds ...
 Structure1 step1 at CalcFold1
-Submission dir copied to the current directory.
-2024年  2月 14日 水曜日 13:34:56 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 13:39:57 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 13:44:58 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 13:49:59 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 13:54:59 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 14:00:00 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 14:05:01 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 14:10:01 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 14:15:02 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 14:20:03 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 14:25:03 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 14:30:04 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 14:35:05 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 14:40:06 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 14:45:06 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 14:50:07 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 14:55:08 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 15:00:09 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 15:05:10 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 15:10:11 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 15:15:11 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 15:20:12 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 15:25:13 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 15:30:14 JST
-  
-Structure1 step1 at CalcFold1
-2024年  2月 14日 水曜日 15:35:15 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 15:40:15 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 15:45:16 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 15:50:17 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 15:55:17 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 16:00:18 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 16:05:19 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 16:10:20 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 16:15:20 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 16:20:21 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 16:25:22 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 16:30:23 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 16:35:24 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 16:40:24 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 16:45:25 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 16:50:26 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 16:55:27 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 17:00:27 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 17:05:28 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 17:10:29 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 17:15:30 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 17:20:30 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 17:25:31 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 17:30:32 JST
-  
-Structure1 step1 at CalcFold1
-2024年  2月 14日 水曜日 17:35:33 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 17:40:33 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 17:45:34 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 17:50:35 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 17:55:36 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 18:00:36 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 18:05:37 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 18:10:38 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 18:15:39 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 18:20:39 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 18:25:40 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 18:30:41 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 18:35:41 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 18:40:42 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 18:45:43 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 18:50:44 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 18:55:44 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 19:00:45 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 19:05:46 JST
-  
-still_runing is present, matlab has to exit, please see NOT_YET file for details
-2024年  2月 14日 水曜日 19:10:46 JST
+2024年  2月 16日 金曜日 11:43:53 JST
   
 still_runing is present, matlab has to exit, please see NOT_YET file for details

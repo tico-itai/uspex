@@ -1,0 +1,401 @@
+2024年  2月 16日 金曜日 09:43:12 JST
+  
+POP_STRUC =
+
+  scalar structure containing the fields:
+
+    POPULATION =
+
+      0x0 struct array containing the fields:
+
+        COORDINATES
+        INIT_COORD
+        LATTICE
+        INIT_LAT
+        numIons
+        INIT_numIons
+        struc_entr
+        order
+        dielectric_tensor
+        gap
+        hardness
+        powerfactor
+        FINGERPRINT
+        symg
+        K_POINTS
+        mag_moment
+        magmom_ions
+        magmom_ini
+        ldaU
+        S_order
+        Step
+        Enthalpies
+        Error
+        Done
+        ToDo
+        Parents
+        howCome
+        JobID
+        Folder
+        Number
+        cos_similarity_xrd_volchanged
+        exp_cos_similarity_xrd_volchanged
+
+    SOFTMODEParents = [](0x0)
+    SOFTMUTATED = [](0x0)
+    resFolder = [](0x0)
+    generation = [](0x0)
+    DoneOrder = [](0x0)
+    bodyCount = [](0x0)
+    ranking = [](0x0)
+    bad_rank = [](0x0)
+    fitness = [](0x0)
+    convex_hull = [](0x0)
+
+  Initial space group: I4_1/a (88)
+  Actual  space group: I4_1/amd (141) (determined with tolerance=0.05)
+Structure 1 built with the symmetry group 88 (I4_1/a)
+  Initial space group: Cmma (67)
+  Actual  space group: Cmma (67) (determined with tolerance=0.05)
+Structure 2 built with the symmetry group 67 (Cmma)
+  Initial space group: P-6c2 (188)
+  Actual  space group: P-6m2 (187) (determined with tolerance=0.05)
+Structure 3 built with the symmetry group 188 (P-6c2)
+  Initial space group: Ibam (72)
+  Actual  space group: Ibam (72) (determined with tolerance=0.05)
+Structure 4 built with the symmetry group 72 (Ibam)
+  Initial space group: P-42_1c (114)
+  Actual  space group: P4/nmm (129) (determined with tolerance=0.05)
+Structure 5 built with the symmetry group 114 (P-42_1c)
+ 
+ATTENTION! In 3 / 5 cases actually generated symmetry was different.
+ 
+ 
+Read Seeds ... 
+ 
+Read AntiSeeds ...
+Structure1 step1 at CalcFold1
+2024年  2月 16日 金曜日 09:44:44 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 09:45:45 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 09:46:46 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 09:47:46 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 09:48:47 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 09:49:48 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 09:50:49 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 09:51:50 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 09:52:50 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 09:53:51 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 09:54:52 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 09:55:53 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 09:56:53 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 09:57:54 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 09:58:55 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 09:59:56 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:00:56 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:01:57 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:02:58 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:03:58 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:04:59 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:06:00 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:07:01 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:08:02 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:09:02 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:10:03 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:11:03 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:12:04 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:13:05 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:14:06 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:15:06 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:16:07 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:17:08 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:18:08 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:19:09 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:20:10 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:21:10 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:22:11 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:23:12 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:24:12 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:25:13 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:26:14 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:27:15 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:28:15 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:29:16 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:30:17 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:31:17 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:32:18 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:33:19 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:34:20 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:35:20 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:36:21 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:37:22 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:38:22 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:39:23 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:40:24 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:41:24 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:42:25 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:43:26 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:44:26 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:45:27 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:46:28 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:47:29 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:48:29 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:49:30 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:50:31 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:51:32 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:52:32 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:53:33 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:54:34 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:55:34 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:56:35 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:57:36 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:58:37 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 10:59:37 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:00:38 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:01:39 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:02:39 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:03:40 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:04:41 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:05:41 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:06:42 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:07:43 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:08:43 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:09:44 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:10:45 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:11:46 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:12:46 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:13:47 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:14:48 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:15:48 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:16:49 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:17:50 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:18:50 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:19:51 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:20:52 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:21:53 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:22:53 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:23:54 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:24:55 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:25:55 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:26:56 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:27:57 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:28:57 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:29:58 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:30:59 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:31:59 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details
+2024年  2月 16日 金曜日 11:33:00 JST
+  
+still_runing is present, matlab has to exit, please see NOT_YET file for details

@@ -1,0 +1,35 @@
+2024年  2月 16日 金曜日 09:43:12 JST
+warning: pathsearch: variable 'PATH' references itself (eventually)
+warning: called from
+    /usr/lib/x86_64-linux-gnu/octave/4.2.2/oct/x86_64-pc-linux-gnu/PKG_ADD at line 4 column 1
+warning: pathsearch: variable 'PATH' references itself (eventually)
+warning: called from
+    /usr/lib/x86_64-linux-gnu/octave/4.2.2/oct/x86_64-pc-linux-gnu/PKG_ADD at line 4 column 1
+warning: pathsearch: variable 'PATH' references itself (eventually)
+warning: called from
+    /usr/lib/x86_64-linux-gnu/octave/4.2.2/oct/x86_64-pc-linux-gnu/PKG_ADD at line 4 column 1
+warning: pathsearch: variable 'PATH' references itself (eventually)
+warning: called from
+    /usr/lib/x86_64-linux-gnu/octave/4.2.2/oct/x86_64-pc-linux-gnu/PKG_ADD at line 4 column 1
+warning: pathsearch: variable 'PATH' references itself (eventually)
+warning: called from
+    /usr/lib/x86_64-linux-gnu/octave/4.2.2/oct/x86_64-pc-linux-gnu/PKG_ADD at line 4 column 1
+warning: pathsearch: variable 'PATH' references itself (eventually)
+warning: called from
+    /usr/lib/x86_64-linux-gnu/octave/4.2.2/oct/x86_64-pc-linux-gnu/PKG_ADD at line 4 column 1
+warning: pathsearch: variable 'PATH' references itself (eventually)
+warning: called from
+    /usr/lib/x86_64-linux-gnu/octave/4.2.2/oct/x86_64-pc-linux-gnu/PKG_ADD at line 4 column 1
+warning: pathsearch: variable 'PATH' references itself (eventually)
+warning: called from
+    /usr/lib/x86_64-linux-gnu/octave/4.2.2/oct/x86_64-pc-linux-gnu/PKG_ADD at line 4 column 1
+warning: pathsearch: variable 'PATH' references itself (eventually)
+warning: called from
+    /usr/lib/x86_64-linux-gnu/octave/4.2.2/oct/x86_64-pc-linux-gnu/PKG_ADD at line 4 column 1
+warning: pathsearch: variable 'PATH' references itself (eventually)
+warning: called from
+    /usr/lib/x86_64-linux-gnu/octave/4.2.2/oct/x86_64-pc-linux-gnu/PKG_ADD at line 4 column 1
+Note: The following floating-point exceptions are signalling: IEEE_INVALID_FLAG
+awk: fatal: can't open source file `-e' for reading (No such file or directory)
+awk: fatal: can't open source file `-e' for reading (No such file or directory)
+error: lattice(1,_): but lattice has size 0x0

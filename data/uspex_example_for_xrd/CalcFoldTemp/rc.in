@@ -1,0 +1,6 @@
+ 114 ! space group 
+ 4.721  8.138  8.461 80.510 49.084 96.444 ! lattice of primitive unit cell
+   2 ! number of types of atoms
+   4    4 ! number of atoms of each type
+1.950 1.500 1.500 1.950 ! minimum distance between atoms 
+ 1 coefficient between minDist and symmetrization distance 

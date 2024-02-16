@@ -1,0 +1,41 @@
+FINDSYM, Version 3.2.3, August 2007
+Written by Harold T. Stokes and Dorian M. Hatch
+Brigham Young University
+ 
+testing
+Tolerance:    0.05000
+Lattice parameters, a,b,c,alpha,beta,gamma:
+   5.05500   5.05500   9.05900  90.00000  90.00000  90.00000
+Vectors defining the unit cell (dimensionless coordinates):
+   1.00000   0.00000   0.00000
+   0.00000   1.00000   0.00000
+   0.00000   0.00000   1.00000
+Number of atoms in unit cell:
+  8
+Type of each atom:
+  1  1  1  1  2  2  2  2
+Position of each atom (dimensionless coordinates)
+   1   0.00000   0.50000   0.27659
+   2   0.50000   0.00000   0.22340
+   3   0.00000   0.50000   0.77660
+   4   0.50000   0.00000   0.72340
+   5   0.00000   0.00000   0.00000
+   6   0.50000   0.50000   0.50000
+   7   0.00000   0.00000   0.50000
+   8   0.50000   0.50000   0.00000
+------------------------------------------
+Space Group 129  D4h-7     P4/nmm    
+Origin at    0.25000   0.75000   0.00000
+Vectors a,b,c:
+   0.00000   1.00000   0.00000
+   1.00000   0.00000   0.00000
+   0.00000   0.00000  -0.50000
+Values of a,b,c,alpha,beta,gamma:
+   5.05500   5.05500   4.52950  90.00000  90.00000  90.00000
+Atomic positions in terms of a,b,c:
+Wyckoff position c, z = -0.44681
+   1   0.75000   0.75000   0.44681
+   2   0.25000   0.25000   0.55319
+Wyckoff position a
+   5   0.25000   0.75000   0.00000
+   6   0.75000   0.25000   0.00000

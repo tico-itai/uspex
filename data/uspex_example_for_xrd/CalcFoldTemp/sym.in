@@ -1,0 +1,18 @@
+testing
+0.0500 accuracy
+2  form of lattice parameters: to be entered as lengths and angles
+ 5.055  5.055  9.059 90.000 90.000 90.000 a,b,c,alpha,beta,gamma
+1  form of primitive lattice vectors
+1 0 0 primitive lattice vectors
+0 1 0
+0 0 1
+   8 number of atoms in the primitive unit cell
+ 1 1 1 1 2 2 2 2 type of each atom
+    0.000000     0.500000     0.276595
+    0.500000     0.000000     0.223405
+    0.000000     0.500000     0.776595
+    0.500000     0.000000     0.723405
+    0.000000     0.000000     0.000000
+    0.500000     0.500000     0.500000
+    0.000000     0.000000     0.500000
+    0.500000     0.500000     0.000000

@@ -1,0 +1,63 @@
+*------------------------------------------------------------------------------*
+|                                                                              |
+|             _|    _|     _|_|_|   _|_|_|     _|_|_|_|   _|      _|           |
+|             _|    _|   _|         _|    _|   _|           _|  _|             |
+|             _|    _|     _|_|     _|_|_|     _|_|_|         _|               |
+|             _|    _|         _|   _|         _|           _|  _|             |
+|               _|_|     _|_|_|     _|         _|_|_|_|   _|      _|           |
+|                                                                              |
+|                          Version 9.4.4 (04/10/2015)                          |
+|                                                                              |
+|             Evolutionary Algorithm Code for Structure Prediction             |
+|                   more info at http://uspex.stonybrook.edu                   |
+|                                                                              |
+*------------------------------------------------------------------------------*
+*------------------------------------------------------------------------------*
+|                  Please cite the following suggested papers                  |
+|               when you publish the results obtained from USPEX:              |
+*------------------------------------------------------------------------------*
+*------------------------------------------------------------------------------*
+|  Oganov A.R., Glass C.W. (2006). Crystal structure prediction                |
+|  using ab initio evolutionary techniques: Principles and applications.       |
+|  J. Chem. Phys. 124, 244704                                                  |
+|                                                                              |
+|  Oganov A.R., Stokes H., Valle M. (2011)                                     |
+|  How evolutionary crystal structure prediction works - and why.              |
+|  Acc. Chem. Res. 44, 227-237                                                 |
+|                                                                              |
+|  Lyakhov A.O., Oganov A.R., Stokes H., Zhu Q. (2013)                         |
+|  New developments in evolutionary structure prediction algorithm USPEX.      |
+|  Comp. Phys. Comm., 184, 1172-1182                                           |
+*------------------------------------------------------------------------------*
+
+            Job Starts at                 16-Feb-2024 09:43:18
+                          Block for system description                          
+                        Dimensionality  :   3
+                        Molecular       :   0 (1:Yes, 0,No)
+                   Variable Composition :   0 (1:Yes, 0,No)
+                          Block for atomic description                          
+    There are 2 types of atoms in the system:    Na   Cl
+    Minimum distances:                    Na: 1.95  1.50  
+    Minimum distances:                    Cl: 1.50  1.95  
+
+           Good Bonds:                    Na: 0.05  0.07  
+           Good Bonds:                    Cl: 0.07  0.10  
+
+            valences                        : 1.00  1.00  
+    The investigated system is: Na_ 4  Cl_ 4  
+                        Block for evolutionary algorithm                        
+                 Number of Generations  :       3
+               Initial Population Size  :       5
+               General Population Size  :       5
+                             AB INITIO CALCULATIONS                             
+*  External Pressure is : 0.0000  GPa*
+     Estimated Volume : 231.440  A^3
+
+*  There are  1 local relaxation steps for each individual structure  *
+Step  Abinitio Code                  Execute Command            K-resolution 
+  1     PWSCF                      pw.x < qe.in > output         0.100
+
+The calculations are performed in nonParallel mode on the local machine
+   1 parallel calculations are performed simutaneously
+
+  ID   Origin     Composition  Enthalpy(eV)  Volume(A^3)  KPOINTS  SYMMETRY
